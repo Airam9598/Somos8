@@ -53,7 +53,9 @@
     margin-right: 40px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px black;
+
 }
+
 
 
 .boton1 img{
@@ -68,8 +70,9 @@
     text-decoration: none;
     padding: 17px 50px;
     cursor: pointer;
-    font-family: 'Raleway';font-size: 35px;
+    font-family: 'Raleway';font-size: 25px;
     font-weight: bolder;
+    text-align: left;
 }
 
 .cont-menu ul li:hover{
