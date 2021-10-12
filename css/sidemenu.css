@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos para el icono del menu*/
+.icono-menu{
+    margin: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+
+/*Estilo para el logo*/
+.cont-menu img{
+    margin-bottom: 100px;
+}
+/*estilos para el contendor del menu*/
+.cont-menu{
+    box-shadow: 2px 0px 5px 2px #EEB523;
+    background-color: #EEB523;
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/*Estilo para el logo*/
+.icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*Estilos para el listado del menú*/
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    list-style: none;
+    text-align: center;
+;
+}
+
+/*Estilo para cada boton*/
+.boton1{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.boton1 img{
+    width: 60px;
+    height: 55px;
+}
+
+.cont-menu ul li{
+    color: #37342F;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 17px 50px;
+    cursor: pointer;
+    font-family: 'Raleway';font-size: 35px;
+    font-weight: bolder;
+}
+
+.cont-menu ul li:hover{
+    background-color: #37342F;
+    color: #EEB523;
+    border-radius: 15px;
+}
