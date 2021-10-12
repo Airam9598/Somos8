@@ -1,7 +1,17 @@
+:root {
+    --yellow: #EEB523;
+    --gray:#37342F;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body{
+    margin:0;
+    height: 100%;
 }
 
 /*estilos para el icono del menu*/
@@ -9,6 +19,7 @@
     margin: 40px;
     position: relative;
     z-index: 10;
+    display: none; /*temporal, molestaba en el diseño*/
 }
 
 
@@ -18,8 +29,8 @@
 }
 /*estilos para el contendor del menu*/
 .cont-menu{
-    box-shadow: 2px 0px 5px 2px #EEB523;
-    background-color: #EEB523;
+    box-shadow: 2px 0px 5px 2px var(--yellow);
+    background-color: var(--yellow);
     width: 400px;
     height: 100vh;
     position: absolute;
@@ -64,19 +75,92 @@
 }
 
 .cont-menu ul li{
-    color: #37342F;
+    color: var(--gray);
     display: block;
     font-size: 25px;
     text-decoration: none;
     padding: 17px 50px;
     cursor: pointer;
-    font-family: 'Raleway';font-size: 25px;
+    font-family: 'Raleway';
+    font-size: 25px;
     font-weight: bolder;
     text-align: left;
 }
 
 .cont-menu ul li:hover{
     background-color: #37342F;
-    color: #EEB523;
+    color: var(--yellow);
     border-radius: 15px;
+}
+
+
+/*Main_page*/
+
+.main_page{
+    position: fixed;
+    width: calc(100vw - 400px);
+    margin-right: 0;
+    left: auto;
+    right: 0;
+    height: 100%;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_button{
+ position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 100px;
+    background-color: var(--yellow);
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px;
+    box-shadow: black 1px 1px 4px 1px;
+}
+.login_button p{
+    padding: 10px;
+    width: max-content;
+    display: inline-block;
+    color:var(--gray);
+}
+.login_button span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 5px;
+    background: linear-gradient(to bottom,rgb(50 49 49), rgb(26 26 26));
+    box-shadow: rgb(50 49 49) 2px 0px 1px 3px;
+}
+
+footer section{
+    width: 49%;
+    display: inline-grid;
+    text-align: center;
+}
+
+footer section p{
+    font-size: 1.2em;
+}
+footer section ul{
+    font-size: 1em;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
 }
