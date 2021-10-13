@@ -13,12 +13,13 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         $(function() {
-            $('.main_page').load("./pages/main.html");
+            $('footer').load("./pages/footer.html");
         });
     </script>
 </head>
 <body>
-
+<header>
+</header>
     <nav class ="nav">
         <div class="cont-menu active" id="menu">
             <div class="icono-menu">
@@ -47,12 +48,20 @@
             </ul>
         </div>
     </nav>
-    <script src="css/sidemenu.css"></script>
 
-    <header>
-    </header>
     <div class="main_page">
+        <a class="login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
 
+        <section class="principal">
+            <article>
+                Prueba de home1
+            </article>
+            <article>
+                Prueba 2
+            </article>
+        </section>
+
+        <footer></footer>
     </div>
 </body>
 </html>
