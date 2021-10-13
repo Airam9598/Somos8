@@ -1,0 +1,13 @@
+
+.icon-inicio:before { content: '\e800'; } /* '' */
+.icon-foro:before { content: '\e801'; } /* '' */
+.icon-contacto:before { content: '\e802'; } /* '' */
+.icon-twitter:before { content: '\e803'; } /* '' */
+.icon-facebook:before { content: '\e804'; } /* '' */
+.icon-telefono:before { content: '\e805'; } /* '' */
+.icon-contraseña:before { content: '\e806'; } /* '' */
+.icon-mail2:before { content: '\e807'; } /* '' */
+.icon-mail:before { content: '\e808'; } /* '' */
+.icon-sugerencias:before { content: '\f0ca'; } /* '' */
+.icon-user-circle-o:before { content: '\f2be'; } /* '' */
+.icon-descubre:before { content: '\f50d'; } /* '' */
