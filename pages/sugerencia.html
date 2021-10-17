@@ -14,41 +14,16 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script>
     $(function() {
-      $('footer').load("./pages/footer.html");
+      $('footer').load("./footer.html");
+      $('.nav').load("./menu.html");
     });
   </script>
 </head>
 <body>
 <header>
 </header>
-<nav class ="nav">
-  <div class="cont-menu active" id="menu">
-    <div class="icono-menu">
-      <img src="images/sidemenu/open-menu.jpg" id="icono-menu">
-    </div>
-    <ul>
-      <img src="images/sidemenu/logo.png" id="logo">
+<nav class ="nav"></nav>
 
-      <div class="boton1">
-        <li> <i class="icon-inicio"></i> INICIO</li>
-      </div>
-      <div class="boton1">
-        <div class="texto-boton">
-          <li> <i class="icon-descubre"></i>DESCUBRE</li>
-        </div>
-      </div>
-      <div class="boton1">
-        <li> <i class="icon-foro"></i>FORO</li>
-      </div>
-      <div class="boton1">
-        <li><i class="icon-sugerencias"></i>SUGERENCIAS</li>
-      </div>
-      <div class="boton1">
-        <li><i class="icon-contacto"></i>CONTACTO</li>
-      </div>
-    </ul>
-  </div>
-</nav>
 <div class="main_page">
   <a class="login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
 

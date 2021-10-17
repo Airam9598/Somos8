@@ -30,15 +30,16 @@ html, body{
 }
 /*estilos para el contendor del menu*/
 .cont-menu{
-    box-shadow: 2px 0px 2px 2px var(--yellow);
+    box-shadow: 1px 0px 1px 0px var(--yellow);
     background-color: var(--yellow);
     width: 14%;
     min-width: 200px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     transition: all .5s ease;
+    z-index: 10;
 }
 
 /*Estilo para el logo*/
@@ -99,7 +100,8 @@ html, body{
     margin-right: 0;
     left: auto;
     right: 0;
-    height: 100%;
+    height: max-content;
+    min-height: 100%;
     background-image: url(../images/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
