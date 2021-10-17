@@ -1,0 +1,109 @@
+:root {
+    --yellow: #EEB523;
+    --gray:#37342F;
+}
+
+
+/*Estilo para el formulario*/
+form{
+    background-color: var(--yellow);
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: var(--gray);
+    box-sizing: content-box;
+    width: 300px;
+    height: 360px;
+    text-align: center;
+    margin: 60px 290px;
+    padding: 30px 20px;
+    border-radius: 40px;
+}
+
+.text-formulario{
+    font-size: 2.3em;
+    margin-bottom: 8px;
+}
+
+.titulo-sugerencia {
+    margin-left: 80px;
+    font-family: 'Raleway';
+    color: var(--gray);
+    font-size: 3em;
+    margin-bottom: -40px;
+}
+
+.linea {
+    border-top: 3px solid black;
+    height: 6px;
+    width: 500px;
+    max-width: 420px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 0;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input, textarea{
+    outline: none;
+}
+
+#propuesta{
+    width: 300px;
+    height: 135px;
+    text-autospace: initial;
+    text-align: left;
+}
+
+
+.boton-sugerencia{
+    margin-top: 0px;
+    background-color: var(--gray);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+
+.boton-sugerencia:hover{
+    background-color: #4B2A22;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1em;
+}
+
+aside{
+    border-radius: 15px;
+    height: 160px;
+    width: 240px;
+    background-color: rgba(0,0,0,0.05);
+    margin-left: 800px;
+    margin-top: -400px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+
+}
+
+.text-ayudanos{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.text-objetivo{
+    font-family: 'Raleway';
+    font-size: 1em;
+}
+
+

@@ -44,7 +44,7 @@ html, body{
 /*Estilo para el logo*/
 .icono-menu img{
     vertical-align: top;
-    width: 250%;
+    width: 220%;
     cursor: pointer;
 }
 
@@ -59,7 +59,7 @@ html, body{
 .cont-menu ul img{
     width: 80%;
     height: 80%;
-    margin-top: -60px;
+    margin-top: -90px;
 }
 
 /*Estilo para cada boton*/
