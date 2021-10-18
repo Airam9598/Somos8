@@ -1,0 +1,124 @@
+:root {
+    --yellow: #EEB523;
+    --gray:#37342F;
+}
+.suggestion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: CENTER;
+}
+
+/*Estilo para el formulario*/
+form{
+    background-color: var(--yellow);
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    color: var(--gray);
+    box-sizing: content-box;
+    width: 60%;
+    height: 64%;
+    text-align: center;
+    margin: 8% 1%;
+    padding: 3% 20px;
+    border-radius: 40px;
+}
+
+.text-form{
+    font-size: 2.3em;
+    margin-bottom: 2.5%;
+}
+
+.title-suggestion {
+    margin-left: 9%;
+    font-family: 'Raleway', serif;
+    color: var(--gray);
+    font-size: 3.5em;
+    margin-bottom: -40px;
+}
+
+.line {
+    border-top: 3px solid black;
+    height: 1%;
+    width: 70vh;
+    max-width: 70vh;
+    margin: 10% 0;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 2% 6%;
+    text-align: center;
+    border: 0;
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input, textarea{
+    outline: none;
+}
+
+textarea{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 0 solid #000;
+    width: 40vh;
+    height: 135px;
+    text-align: left;
+    border-radius: 13px;
+    outline: none;
+}
+
+
+.button-suggestion{
+    background-color: var(--gray);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+
+.button-suggestion:hover{
+    background-color: #4B2A22;
+    color: white;
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.cont-text{
+    border-radius: 15px;
+    height: 3%;
+    width: 33vh;
+    margin-top: 15%;
+    background-color: rgba(0,0,0,0.05);
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+
+}
+
+.text-propose{
+    font-family: 'Raleway', serif;
+    color: var(--gray);
+}
+
+.text-help{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-family: 'Raleway', serif;
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.text-objective{
+    margin-bottom: 6%;
+    font-family: 'Raleway', serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+

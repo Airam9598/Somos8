@@ -102,7 +102,7 @@ html, body{
     right: 0;
     height: max-content;
     min-height: 100%;
-    background-image: url(../images/fondo.jpg);
+    background-image: url(../assets/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
