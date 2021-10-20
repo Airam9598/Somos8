@@ -2,11 +2,15 @@
     --yellow: #EEB523;
     --gray:#37342F;
 }
+
+*{
+    font-family: 'Raleway', serif;
+}
 .content{
     margin: auto;
     display: flex;
     width: 60%;
-    margin-top: 1%;
+    margin-top: 2%;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
@@ -16,7 +20,6 @@
 /*Estilo para el formulario*/
 form{
     background-color: var(--yellow);
-    font-family: 'Raleway', serif;
     font-weight: bold;
     color: var(--gray);
     box-sizing: content-box;
@@ -38,7 +41,7 @@ h2{
 h1{
     text-align: center;
     margin-bottom: 0;
-    font-family: 'Raleway', serif;
+    margin-top: 0.5em;
     font-size: 3.5em;
     font-weight: bold;
     color: var(--gray);
@@ -63,7 +66,7 @@ input{
     padding: 2% 6%;
     text-align: center;
     border: 0;
-    font-family: 'Raleway', serif;
+
     font-weight: bold;
     font-size: 1em;
 }
@@ -93,7 +96,6 @@ textarea{
 .button-suggestion:hover{
     background-color: #4B2A22;
     color: white;
-    font-family: 'Raleway', serif;
     font-weight: bold;
     font-size: 1em;
 }
@@ -111,14 +113,11 @@ textarea{
 }
 
 .text-propose{
-    font-family: 'Raleway', serif;
     color: var(--gray);
 }
 
 .text-help{
     margin-top: 6%;
-    margin-bottom: 6%;
-    font-family: 'Raleway', serif;
     color: var(--gray);
     font-weight: bold;
     font-size: 1.8em;
@@ -126,7 +125,6 @@ textarea{
 
 .text-objective{
     margin-bottom: 6%;
-    font-family: 'Raleway', serif;
     color: black;
     font-weight: bold;
     font-size: 1em;
@@ -157,10 +155,10 @@ textarea{
     textarea{
         font-size: 1em;
         height: 10em;
-        width: 19em;
+        width: 14em;
     }
     form{
-        margin-top: 3em;
+        margin-top: 6em;
         height: max-content;
         width: 15em;
 
@@ -204,12 +202,12 @@ textarea{
     textarea{
         font-size: 1em;
         height: 10em;
-        width: 19em;
+        width: 14.5em;
     }
     form{
         margin: 1.4em 1.4em;
         margin-left: 2.9em;
-        margin-top: 2em;
+        margin-top: 3em;
         height: max-content;
         width: 15em;
 
@@ -222,6 +220,7 @@ textarea{
     }
     h1{
         margin: auto;
+        margin-top: 2em;
         font-size: 3em;
     }
 

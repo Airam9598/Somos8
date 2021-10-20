@@ -25,27 +25,32 @@
 <nav class ="nav"></nav>
 <div class="main_page">
     <a class="login_button" href=""><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
-    <section class="register">
-        <form action="" method="post">
-            <h2>INICIA SESIÓN</h2>
-            <p>
-                <label for="mail-register"></label>
-                <input type="email" class="text-register" id="mail-register"
-                       placeholder="e-mail*" required
-                       minlength="3" maxlength="29" size="31">
-            </p>
-            <label for="password-register"></label>
-            <input type="password" class="text-register" id="password-register"
-                   placeholder="password*" required
-                   minlength="6" maxlength="15" size="31">
-            </p>
-            <p>
-                <input type="submit" class="button-suggestion">
-            </p>
-        </form>
+    <section class="login">
+        <div class="content-login">
+            <form action="" method="post">
+                <h2>INICIA SESIÓN</h2>
+                <p>
+                    <label for="mail-login"></label>
+                    <input type="email" class="text-mail-login" id="mail-login"
+                           placeholder="  correo electrónico*" required
+                           minlength="3" maxlength="29" size="31">
+                </p>
+                <p>
+                <label for="password-login"></label>
+                <input type="password" class="text-password-login" id="password-login"
+                       placeholder="  contraseña*" required
+                       minlength="6" maxlength="15" size="31">
+                </p>
+                <p>
+                    <a class="forgot-password" href="">He olvidado mi contraseña</a>
+                </p>
+                <p>
+                    <input type="submit" value="Iniciar sesión" class="button-login">
+                </p>
+            </form>
+        </div>
     </section>
     <footer></footer>
-</div>
 </div>
 </body>
 </html>

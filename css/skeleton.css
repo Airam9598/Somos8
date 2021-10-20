@@ -105,10 +105,10 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    /*width: calc(100vw - 14%);*/
-    /*max-width: calc(100vw - 200px);*/
+    width: calc(100vw - 14%);
+    /*max-width: calc(100vw - 200px);
+    padding: 66px 0 99px 0px;*/
     width: 100%;
-    padding: 66px 0 99px 0px;
     position:absolute
 }
 
@@ -203,9 +203,13 @@ footer section ul{
     margin-top: 250px;
 }
 
-@media screen and (min-width: 0em) and (max-width: 48em) {
+@media screen and (min-width: 0em) and (max-width: 80em) {
     .cont-menu {
         display: none;
+    }
+
+    .main_page{
+        width: 100%;
     }
 
 }

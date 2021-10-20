@@ -1,17 +1,29 @@
 
-*{box-sizing:border-box;}
+*{
+    box-sizing:border-box;
+    font-family: "Fontello", "Raleway", serif;
+}
+
+.content-register{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    margin-top: 5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 form{
-    width: 45vh;
-    height: 20.3em;
+    box-shadow: 2px 2px 5px black;
+    width: min-content;
+    height: min-content;
     padding:2.5em;
     border-radius:1em;
-    margin:auto;
-    margin-top: 5em;
     background-color:var(--yellow);
     outline: none;
     text-align: center;
-    margin-bottom: 2em;
+    margin: 5em auto 2em;
 }
 
 h2{
@@ -24,13 +36,13 @@ h2{
 }
 
 form input{
-    text-align: center;
+    text-align: left;
     width:20em;
     padding:0.9em 2em;
-    border:0em solid #f6f6f6;
+    border:0 solid #f6f6f6;
     border-radius:1em;
     background-color:white;
-    margin:0.6em 0em;
+    margin:0.6em 0;
     display:inline-block;
     font-family: 'Raleway', serif;
     font-size: 0.8em;
@@ -40,8 +52,35 @@ form input{
 
 }
 
+.button-register{
+    text-align: center;
+}
+.text-name{
+    font-family: "Fontello", "Raleway", serif;
+    font-weight: 100;
+    font-weight: bold;
+    content: "\F2BE";
+    outline: none;
+}
+
+.text-email{
+    font-family: "Fontello", "Raleway", serif;
+    font-weight: 100;
+    font-weight: bold;
+    content: "\E806";
+    outline: none;
+}
+
+.text-password{
+    font-family: "Fontello", "Raleway", serif;
+    font-weight: 100;
+    font-weight: bold;
+    content: "\E806";
+    outline: none;
+}
 
 form input[type="submit"]{
+    box-shadow: 2px 2px 5px black;
     font-family: 'Raleway', serif;
     width:10vh;
     padding:3% 1%;
@@ -61,3 +100,40 @@ form input[type="submit"]:hover{
     cursor: pointer;
 }
 
+@media screen and (min-width: 0em) and (max-width: 64em) {
+    .content-register{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    form{
+        margin-top: 8em;
+        margin-right: auto;
+        margin-left: auto;
+        height:23.5em;
+        width: min-content;
+
+    }
+
+    form input[type="submit"]{
+        margin-top: 3em;
+        padding: 1em 1em;
+        margin-right: auto;
+        margin-left: auto;
+        height: max-content;
+        width: 10em;
+    }
+
+    h2{
+        font-size: 1.7em;
+        margin-bottom: 0.7em;
+        margin-top: -0.6em;
+    }
+}
