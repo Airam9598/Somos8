@@ -1,0 +1,235 @@
+*{
+    box-sizing:border-box;
+    font-family: "Fontello", "Raleway", serif;
+}
+
+.content-login{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    margin-top: 5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50vh;
+    height: 18.3em;
+    padding:2.5em;
+    border-radius:1em;
+    background-color:var(--yellow);
+    outline: none;
+    text-align: center;
+    margin: 5em auto 2em;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-bottom: 0.3em;
+    font-family: 'Raleway', serif;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: var(--gray);
+}
+
+form input{
+    outline: none;
+    text-align: left;
+    width:17em;
+    padding:0.9em 2em;
+    border: 0 solid #f6f6f6;
+    border-radius:1em;
+    background-color:white;
+    margin:0.6em 0;
+    display:inline-block;
+    font-family: 'Raleway', serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+form input[type="submit"]{
+    box-shadow: 2px 2px 5px black;
+    font-family: 'Raleway', serif;
+    width:13vh;
+    height: 3em;
+    padding:3% 1%;
+    text-align: center;
+    margin-top:1em;
+    margin-left: 12.2em;
+    border:0;
+    border-radius:2em;
+    display:block;
+    color:white;
+    background-color:var(--gray);
+}
+
+form input[type="submit"]:hover{
+    background-color: #4B2A22;
+    color: white;
+    font-family: 'Raleway', serif;
+    cursor: pointer;
+    margin-left: 12.2em;
+    margin-right: auto;
+}
+
+.text-mail-login{
+    font-family: "Fontello", "Raleway", serif;
+    font-weight: 100;
+    font-weight: bold;
+    content: "\E806";
+    outline: none;
+}
+
+.text-password-login{
+    font-family: "Fontello", "Raleway", serif;
+    font-weight: 100;
+    font-weight: bold;
+    content: "\E806";
+    outline: none;
+}
+
+.forgot-password{
+    margin-left: 4.8em;
+    margin-right: -2em;
+    font-size: 0.8em;
+}
+
+.forgot-password:hover{
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 4.8em;
+    margin-right: -2em;
+    font-size: 0.8em;
+}
+
+h2{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2em;
+}
+
+@media screen and (min-width: 0em) and (max-width: 23em) {
+    .content-login{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    form{
+        margin-top: 3em;
+        margin-right: auto;
+        margin-left: auto;
+        height:20em;
+        width: 84%;
+
+    }
+
+    form input[type="submit"]{
+        margin-top: 3em;
+        padding: 1em 1em;
+        margin-right: auto;
+        margin-left: auto;
+        height: max-content;
+        width: min-content;
+    }
+
+    h2{
+        font-size: 1.7em;
+        margin-bottom: 0.7em;
+    }
+}
+
+
+
+
+@media screen and (min-width: 23em) and (max-width: 47em) {
+    .content-login{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    form{
+        margin-top: 3em;
+        margin-right: auto;
+        margin-left: auto;
+        height: min-content;
+        width: min-content;
+
+    }
+
+    form input[type="submit"]{
+        margin-top: 3em;
+        padding: 1em 1em;
+        margin-right: auto;
+        margin-right: auto;
+        height: max-content;
+        width: min-content;
+    }
+}
+
+@media screen and (min-width: 47em) and (max-width: 64em) {
+    .content-login{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2{
+        font-size: 4em;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .text-mail-login, .text-password-login{
+        font-size: 1.3em;
+    }
+    .forgot-password{
+        font-size: 1.5em;
+    }
+
+    form{
+        margin-top: 15em;
+        margin-right: auto;
+        margin-left: auto;
+        height: 35em;
+        width: 50%;
+
+    }
+
+    form input[type="submit"]{
+        margin-top: 3em;
+        padding: 1em 1em;
+        margin-right: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        height: 3em;
+        width: 10em;
+    }
+}
