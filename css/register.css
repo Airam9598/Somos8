@@ -1,0 +1,63 @@
+
+*{box-sizing:border-box;}
+
+form{
+    width: 45vh;
+    height: 20.3em;
+    padding:2.5em;
+    border-radius:1em;
+    margin:auto;
+    margin-top: 5em;
+    background-color:var(--yellow);
+    outline: none;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0.3em;
+    font-family: 'Raleway', serif;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: var(--gray);
+}
+
+form input{
+    text-align: center;
+    width:20em;
+    padding:0.9em 2em;
+    border:0em solid #f6f6f6;
+    border-radius:1em;
+    background-color:white;
+    margin:0.6em 0em;
+    display:inline-block;
+    font-family: 'Raleway', serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+form input[type="submit"]{
+    font-family: 'Raleway', serif;
+    width:10vh;
+    padding:3% 1%;
+    margin-top:1em;
+    margin-left: 14.2em;
+    border:0;
+    border-radius:2em;
+    display:block;
+    color:white;
+    background-color:var(--gray);
+}
+
+form input[type="submit"]:hover{
+    background-color: #4B2A22;
+    color: white;
+    font-family: 'Raleway', serif;
+    cursor: pointer;
+}
+

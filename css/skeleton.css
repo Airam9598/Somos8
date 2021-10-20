@@ -38,7 +38,6 @@ html, body{
     position: fixed;
     top: 0;
     left: 0;
-    transition: all .5s ease;
     z-index: 10;
 }
 
@@ -106,8 +105,9 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    width: calc(100vw - 14%);
-    max-width: calc(100vw - 200px);
+    /*width: calc(100vw - 14%);*/
+    /*max-width: calc(100vw - 200px);*/
+    width: 100%;
     padding: 66px 0 99px 0px;
     position:absolute
 }
@@ -152,13 +152,9 @@ html, body{
     left: 0;
     margin: auto;
     top: 18px;
-    transition: 0.5s;
     transform: scaleX(0);
 }
-.login_button p:hover::after{
-    transition: 0.5s;
-    transform: scaleX(1);
-}
+
 .login_button span{
     width: 30px;
     height: 30px;
@@ -205,4 +201,11 @@ footer section ul{
     display: block;
     width: max-content;
     margin-top: 250px;
+}
+
+@media screen and (min-width: 0em) and (max-width: 48em) {
+    .cont-menu {
+        display: none;
+    }
+
 }

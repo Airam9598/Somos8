@@ -2,10 +2,15 @@
     --yellow: #EEB523;
     --gray:#37342F;
 }
-.suggestion{
+.content{
+    margin: auto;
     display: flex;
+    width: 60%;
+    margin-top: 1%;
     flex-wrap: wrap;
-    justify-content: CENTER;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Estilo para el formulario*/
@@ -15,34 +20,40 @@ form{
     font-weight: bold;
     color: var(--gray);
     box-sizing: content-box;
-    width: 60%;
-    height: 64%;
+    width: 88%;
+    height: 400%;
     text-align: center;
     margin: 8% 1%;
     padding: 3% 20px;
     border-radius: 40px;
 }
 
-.text-form{
+
+h2{
     font-size: 2.3em;
     margin-bottom: 2.5%;
 }
 
-.title-suggestion {
-    margin-left: 9%;
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
     font-family: 'Raleway', serif;
-    color: var(--gray);
     font-size: 3.5em;
-    margin-bottom: -40px;
+    font-weight: bold;
+    color: var(--gray);
 }
 
 .line {
     border-top: 3px solid black;
-    height: 1%;
-    width: 70vh;
+    height: 0;
+    width: 65vh;
     max-width: 70vh;
-    margin: 10% 0;
+    margin: 20px 400px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
+    color: var(--gray);
 }
 
 input{
@@ -69,7 +80,6 @@ textarea{
     height: 135px;
     text-align: left;
     border-radius: 13px;
-    outline: none;
 }
 
 
@@ -92,8 +102,9 @@ textarea{
     border-radius: 15px;
     height: 3%;
     width: 33vh;
-    margin-top: 15%;
-    background-color: rgba(0,0,0,0.05);
+    margin-left: 3%;
+    margin-top: -10%;
+    background-color: rgba(0,0,0,0.02);
     box-shadow: 2px 2px 5px black;
     text-align: center;
 
@@ -122,3 +133,110 @@ textarea{
 }
 
 
+@media screen and (min-width: 0em) and (max-width: 48em) {
+    .suggestion{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+    }
+
+    .text-propose{
+        font-size: 0.8em;
+    }
+
+    h2{
+        margin: 0.3em 0.3em;
+        font-size: 1.6em;
+    }
+
+    input{
+        width: 100%;
+        font-size: 0.7em;
+    }
+    textarea{
+        font-size: 1em;
+        height: 10em;
+        width: 19em;
+    }
+    form{
+        margin-top: 3em;
+        height: max-content;
+        width: 15em;
+
+    }
+    .line{
+        display: none;
+
+    }
+    h1{
+        display: none;
+    }
+
+    .cont-text{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 48em) and (max-width: 80em) {
+    .suggestion{
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+    }
+
+    .text-propose{
+        font-size: 0.8em;
+    }
+
+    h2{
+        margin: 0.3em 0.3em;
+        font-size: 1.6em;
+    }
+
+    input{
+        width: 100%;
+        font-size: 0.7em;
+    }
+    textarea{
+        font-size: 1em;
+        height: 10em;
+        width: 19em;
+    }
+    form{
+        margin: 1.4em 1.4em;
+        margin-left: 2.9em;
+        margin-top: 2em;
+        height: max-content;
+        width: 15em;
+
+    }
+    .line{
+        margin: 1em;
+        width: 22em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    h1{
+        margin: auto;
+        font-size: 3em;
+    }
+
+    .cont-text{
+        margin-left: 34em;
+        position: fixed;
+        width: 12em;
+        height: 8em;
+    }
+
+    .text-help{
+        font-size: 1.2em;
+    }
+    .text-objective{
+        font-size: 1em;
+    }
+
+}

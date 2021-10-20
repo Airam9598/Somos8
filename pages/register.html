@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Somos8</title>
+    <meta name="viewport" content=" device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author” content=”Kiowa_and_Airam">
+    <meta name="description" content="Prácticas_DAW1">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" href=../css/skeleton.css>
+    <link rel="stylesheet" href=../css/fontello-embedded.css>
+    <link rel="stylesheet" href=../css/register.css>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function() {
+            $('footer').load("./footer.html");
+            $('.nav').load("./menu.html");
+        });
+    </script>
+</head>
+<body>
+<header>
+</header>
+    <nav class ="nav"></nav>
+    <div class="main_page">
+        <a class="login_button" href=""><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
+        <section class="register">
+                <form action="" method="post">
+                    <h2>REGÍSTRATE</h2>
+                    <p>
+                        <label for="name-register"></label>
+                        <input type="text" class="text-register" id="name-register"
+                               placeholder="nombre de usuario*" required
+                               minlength="2" maxlength="29" size="31">
+                    </p>
+                    <p>
+                        <label for="mail-register"></label>
+                        <input type="email" class="text-register" id="mail-register"
+                               placeholder="e-mail*" required
+                               minlength="3" maxlength="29" size="31">
+                    </p>
+                        <label for="password-register"></label>
+                        <input type="password" class="text-register" id="password-register"
+                               placeholder="password*" required
+                               minlength="6" maxlength="15" size="31">
+                    </p>
+                    <p>
+                        <input type="submit" class="button-suggestion">
+                    </p>
+                </form>
+        </section>
+        <footer></footer>
+    </div>
+</div>
+</body>
+</html>

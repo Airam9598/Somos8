@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="añadi las sugerencias (falta mejorar)" />
+    <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="Añadí mejoras en suggestion.h">
+      <change afterPath="$PROJECT_DIR$/../css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/skeleton.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/skeleton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/suggestion.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/suggestion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pages.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suggestion.html" beforeDir="false" afterPath="$PROJECT_DIR$/suggestion.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,6 +62,16 @@
       <workItem from="1634402409166" duration="614000" />
       <workItem from="1634460950886" duration="20563000" />
       <workItem from="1634484124559" duration="44000" />
+      <workItem from="1634485222656" duration="277000" />
+      <workItem from="1634497589857" duration="776000" />
+      <workItem from="1634498393257" duration="1034000" />
+      <workItem from="1634558370853" duration="7770000" />
+      <workItem from="1634570574241" duration="3527000" />
+      <workItem from="1634574551556" duration="475000" />
+      <workItem from="1634648382433" duration="389000" />
+      <workItem from="1634648788049" duration="28000" />
+      <workItem from="1634648818668" duration="21109000" />
+      <workItem from="1634714531769" duration="7258000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -58,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634484051134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="añadi las sugerencias (falta mejorar)">
+      <created>1634485346623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634485346623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
