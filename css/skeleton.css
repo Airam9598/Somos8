@@ -106,9 +106,7 @@ html, body{
     background-size: cover;
     overflow: hidden;
     width: calc(100vw - 14%);
-    /*max-width: calc(100vw - 200px);
-    padding: 66px 0 99px 0px;*/
-    width: 100%;
+    max-width: calc(100vw - 200px);
     position:absolute
 }
 
@@ -166,13 +164,14 @@ html, body{
 
 footer{
     width: 100%;
-    height: 90px;
+    height: max-content;
     position: absolute;
     bottom: 0;
     color: white;
     padding: 5px;
     background: linear-gradient(to bottom,rgb(50 49 49), rgb(26 26 26));
     box-shadow: rgb(50 49 49) 2px 0px 1px 3px;
+    margin-top: 10px;
 }
 
 footer section{
@@ -210,6 +209,8 @@ footer section ul{
 
     .main_page{
         width: 100%;
+        max-width: 100%;
     }
+
 
 }
