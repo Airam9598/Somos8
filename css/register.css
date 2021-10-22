@@ -100,7 +100,7 @@ form input[type="submit"]:hover{
     cursor: pointer;
 }
 
-@media screen and (min-width: 0em) and (max-width: 64em) {
+@media screen and (min-width: 0em) and (max-width: 23em) {
     .content-register{
         position: fixed;
         width: 100%;
@@ -114,26 +114,145 @@ form input[type="submit"]:hover{
 
 
     form{
-        margin-top: 8em;
-        margin-right: auto;
-        margin-left: auto;
-        height:23.5em;
-        width: min-content;
-
-    }
-
-    form input[type="submit"]{
-        margin-top: 3em;
-        padding: 1em 1em;
+        margin-top: 2.1em;
         margin-right: auto;
         margin-left: auto;
         height: max-content;
-        width: 10em;
+        max-height: 20em;
+        max-width: 20em;
+
+    }
+
+    form input{
+        font-size: 0.7em;
+        height: min-content;
+        width: min-content;
+    }
+
+
+    form input[type="submit"]{
+        margin-top: 1em;
+        padding: 1em 2.5em;
+        margin-right: auto;
+        margin-left: 12em;
+        height: max-content;
+        width: min-content;
+    }
+
+    form input[type="submit"]:hover{
+        background-color: #4B2A22;
+        color: white;
+        cursor: pointer;
     }
 
     h2{
         font-size: 1.7em;
         margin-bottom: 0.7em;
         margin-top: -0.6em;
+    }
+}
+
+
+@media screen and (min-width: 23em) and (max-width: 48em) {
+    .content-register{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    form{
+        margin-top: 3em;
+        margin-right: auto;
+        margin-left: auto;
+        height: max-content;
+        max-height: 27em;
+        max-width: 60em;
+
+    }
+
+    form input{
+        font-size: 0.7em;
+        height: min-content;
+        width: min-content;
+    }
+
+
+    form input[type="submit"]{
+        margin-top: 1em;
+        padding: 1em 2.5em;
+        margin-right: auto;
+        margin-left: 12em;
+        height: max-content;
+        width: min-content;
+    }
+
+    form input[type="submit"]:hover{
+        background-color: #4B2A22;
+        color: white;
+        cursor: pointer;
+    }
+
+    h2{
+        font-size: 2.3em;
+        margin-bottom: 0.7em;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 60em) {
+    .content-register{
+        position: fixed;
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    form{
+        margin-top: 6em;
+        margin-right: auto;
+        margin-left: auto;
+        height: max-content;
+        max-height: 43em;
+        max-width: 60em;
+
+    }
+
+    form input{
+        font-size: 1.5em;
+        height: min-content;
+        width: min-content;
+    }
+
+
+    form input[type="submit"]{
+        margin-top: 1em;
+        padding: 1em 2.5em;
+        margin-right: auto;
+        margin-left: 12em;
+        height: max-content;
+        width: min-content;
+    }
+
+    form input[type="submit"]:hover{
+        background-color: #4B2A22;
+        color: white;
+        cursor: pointer;
+    }
+
+    h2{
+        font-size: 4em;
+        margin-bottom: 0.7em;
+        margin-top: 0;
     }
 }
