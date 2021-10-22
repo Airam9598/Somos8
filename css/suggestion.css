@@ -6,11 +6,14 @@
 *{
     font-family: 'Raleway', serif;
 }
+
+.suggestion{
+    width: 100%;
+}
 .content{
     margin: auto;
     display: flex;
     width: 60%;
-    margin-top: 2%;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
@@ -26,7 +29,7 @@ form{
     width: 88%;
     height: 400%;
     text-align: center;
-    margin: 8% 1%;
+    margin: 0 1%;
     padding: 3% 20px;
     border-radius: 40px;
 }
@@ -41,7 +44,6 @@ h2{
 h1{
     text-align: center;
     margin-bottom: 0;
-    margin-top: 0.5em;
     font-size: 3.5em;
     font-weight: bold;
     color: var(--gray);
@@ -132,6 +134,9 @@ textarea{
 
 
 @media screen and (min-width: 0em) and (max-width: 48em) {
+    .main_content{
+        align-items: center;
+    }
     .suggestion{
         position: fixed;
         width: 100%;
@@ -144,7 +149,7 @@ textarea{
     }
 
     h2{
-        margin: 0.3em 0.3em;
+        margin: 0 0.3em;
         font-size: 1.6em;
     }
 
@@ -158,7 +163,6 @@ textarea{
         width: 14em;
     }
     form{
-        margin-top: 6em;
         height: max-content;
         width: 15em;
 
@@ -207,7 +211,6 @@ textarea{
     form{
         margin: 1.4em 1.4em;
         margin-left: 2.9em;
-        margin-top: 3em;
         height: max-content;
         width: 15em;
 
@@ -220,7 +223,6 @@ textarea{
     }
     h1{
         margin: auto;
-        margin-top: 2em;
         font-size: 3em;
     }
 

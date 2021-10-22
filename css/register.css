@@ -8,7 +8,6 @@
     margin: auto;
     display: flex;
     width: 90%;
-    margin-top: 5em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,6 @@ form{
     background-color:var(--yellow);
     outline: none;
     text-align: center;
-    margin: 5em auto 2em;
 }
 
 h2{
@@ -102,7 +100,6 @@ form input[type="submit"]:hover{
 
 @media screen and (min-width: 0em) and (max-width: 23em) {
     .content-register{
-        position: fixed;
         width: 100%;
         align-content: center;
         display: block;
@@ -114,9 +111,6 @@ form input[type="submit"]:hover{
 
 
     form{
-        margin-top: 2.1em;
-        margin-right: auto;
-        margin-left: auto;
         height: max-content;
         max-height: 20em;
         max-width: 20em;
@@ -155,7 +149,6 @@ form input[type="submit"]:hover{
 
 @media screen and (min-width: 23em) and (max-width: 48em) {
     .content-register{
-        position: fixed;
         width: 100%;
         align-content: center;
         display: block;
@@ -167,9 +160,6 @@ form input[type="submit"]:hover{
 
 
     form{
-        margin-top: 3em;
-        margin-right: auto;
-        margin-left: auto;
         height: max-content;
         max-height: 27em;
         max-width: 60em;
@@ -207,7 +197,6 @@ form input[type="submit"]:hover{
 
 @media screen and (min-width: 48em) and (max-width: 60em) {
     .content-register{
-        position: fixed;
         width: 100%;
         align-content: center;
         display: block;
@@ -219,9 +208,6 @@ form input[type="submit"]:hover{
 
 
     form{
-        margin-top: 6em;
-        margin-right: auto;
-        margin-left: auto;
         height: max-content;
         max-height: 43em;
         max-width: 60em;

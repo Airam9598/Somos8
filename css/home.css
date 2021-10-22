@@ -1,18 +1,15 @@
-.principal{
+.home{
     margin: auto;
     display: flex;
     width: 100%;
-    margin-top: 86px;
     flex-wrap: wrap;
     TEXT-ALIGN: CENTER;
     JUSTIFY-CONTENT: CENTER;
     ALIGN-ITEMS: CENTER;
     HEIGHT: MAX-CONTENT;
-    MIN-HEIGHT: 78VH;
-    margin-bottom: 90px;
 }
 
-.principal article{
+.home article{
     width: 30em;
     max-width: 490px;
     height: MAX-CONTENT;
@@ -24,7 +21,7 @@
     box-shadow: #00000073 0px 2px 4px 0px
 }
 
-.principal article img{
+.home article img{
     width: 100%;
     max-height: 13em;
     border-radius: 5px;
@@ -33,14 +30,14 @@
     margin-bottom: 15px;
 }
 
-.principal article p{
+.home article p{
     width: 100%;
     height: max-content;
     text-shadow: #00000054 0px 0px 2px;
     font-size: 1.1em;
 }
 
-.principal article a{
+.home article a{
     text-decoration: none;
     color: black;
     background: var(--yellow);
@@ -56,15 +53,12 @@
     font-size: 1em;
 }
 
-.principal article a:hover{
+.home article a:hover{
     text-decoration: underline;
     background: #eab734;
 }
 
 @media screen and (min-width: 0em) and (max-width: 80em) {
-    .cont-menu {
-        display: none;
-    }
 
     .main_page{
         width: 100%;

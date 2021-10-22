@@ -7,7 +7,6 @@
     margin: auto;
     display: flex;
     width: 90%;
-    margin-top: 5em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,6 @@ form{
     background-color:var(--yellow);
     outline: none;
     text-align: center;
-    margin: 5em auto 2em;
     box-shadow: 2px 2px 5px black;
 }
 
@@ -120,7 +118,6 @@ h2{
 
 @media screen and (min-width: 0em) and (max-width: 23em) {
     .content-login{
-        position: fixed;
         width: 100%;
         align-content: center;
         display: block;
@@ -132,9 +129,6 @@ h2{
 
 
     form{
-        margin-top: 3em;
-        margin-right: auto;
-        margin-left: auto;
         height: max-content;
         max-height: 23em;
         max-width: 20em;
@@ -186,7 +180,6 @@ h2{
 
 @media screen and (min-width: 23em) and (max-width: 48em) {
     .content-login{
-        position: fixed;
         width: 100%;
         align-content: center;
         display: block;
@@ -198,9 +191,6 @@ h2{
 
 
     form{
-        margin-top: 3em;
-        margin-right: auto;
-        margin-left: auto;
         height: max-content;
         max-height: 23em;
         max-width: 20em;
@@ -243,7 +233,6 @@ h2{
 
 @media screen and (min-width: 48em) and (max-width: 60em) {
     .content-login{
-        position: fixed;
         width: 100%;
         align-content: center;
         display: block;
@@ -255,9 +244,6 @@ h2{
 
 
     form{
-        margin-top: 10em;
-        margin-right: auto;
-        margin-left: auto;
         height: auto;
         max-height: min-content;
         max-width: min-content;
