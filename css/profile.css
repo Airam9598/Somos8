@@ -1,0 +1,254 @@
+*{
+    font-family: "Raleway", serif;
+}
+
+.profile{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    background: #ffffff7a;
+    border-radius: 20px;
+    min-height: max-content;
+    min-width: max-content;
+    padding: 15px 28px;
+    box-shadow: #00000096 1px 2px 3px 1px;
+    margin-top: 1em;
+}
+
+form{
+    outline: none;
+    display:inline-block;
+
+}
+.imagen-prof{
+    width: 7em;
+    height: 6em;
+    border-radius: 15px;
+    margin-bottom: 0.2em;
+}
+
+
+
+input{
+    margin-bottom: 1em;
+    border-radius: 0.7em;
+    border: 0em solid #f6f6f6;
+    outline: none;
+    width:min-content;
+    padding:0.9em 2em;
+    background-color:white;
+    display:inline-block;
+    font-family: 'Raleway', serif;
+    font-size: 0.7em;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px black;
+    margin: 0.5em 1.8em;
+}
+
+
+h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    text-shadow: 0.1px 0.1px 0.1px black;
+}
+
+label{
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: right;
+    display: inline-block;
+}
+
+
+.change_imagen{
+    display:inline-block;
+    margin-left: 8em;
+}
+
+.button-profile{
+    margin-left: 0.8em;
+}
+
+.button-upgrade{
+    margin-left: auto;
+}
+
+
+form input[type="submit"]{
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 1.5em;
+    font-family: 'Raleway', serif;
+    width:13vh;
+    height: 3em;
+    padding:3% 1%;
+    border-radius:2em;
+    display:block;
+    color:var(--gray);
+    background-color:var(--yellow);
+}
+
+form input[type="submit"]:hover{
+    background-color: #4B2A22;
+    color: white;
+    font-family: 'Raleway', serif;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 0em) and (max-width: 23em) {
+
+    .main-content{
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    form{
+        font-size: 0.8em;
+        height: 0em;
+        min-width: 12em;
+        text-align: left;
+
+    }
+
+    .imagen-prof{
+        display: inline-block;
+        width: 6em;
+        min-height: 5em;
+        border-radius: 15px;
+        margin-bottom: 0.2em;
+    }
+
+    input{
+        font-size: 0.5em;
+    }
+
+    .change_imagen{
+        display:block;
+        margin-left: 6em;
+    }
+
+    .button-profile{
+        margin-left: 0.4em;
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+
+    .button-upgrade{
+        margin-top: 1.4em;
+        margin-left: 9em;
+        font-size: 0.7em;
+    }
+}
+
+
+@media screen and (min-width: 23em) and (max-width: 48em) {
+
+    .main-content{
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    form{
+        font-size: 0.8em;
+        min-width: 12em;
+        text-align: left;
+
+    }
+    label{
+        font-size: 0.75em;
+    }
+
+    .imagen-prof{
+        display: inline-block;
+        width: 7em;
+        min-height: 6em;
+        border-radius: 15px;
+        margin-bottom: 0.2em;
+    }
+
+    input{
+        font-size: 0.7em;
+    }
+
+    .change_imagen{
+        display:block;
+        margin-left: 8em;
+    }
+
+    .button-profile{
+        margin-left: -0.3em;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    .button-upgrade{
+        margin-top: 1em;
+        margin-left: 9em;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 60em) {
+
+    .main-content{
+        width: 100%;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    form{
+        font-size: 1.3em;
+        min-width: 12em;
+        text-align: left;
+        font-size: 1.5em;
+
+    }
+    label{
+        font-size: 1em;
+    }
+
+    .imagen-prof{
+        display: inline-block;
+        width: 9em;
+        min-height: 8em;
+        border-radius: 15px;
+        margin-bottom: 0.2em;
+    }
+
+    input{
+        font-size: 0.7em;
+    }
+
+    .change_imagen{
+        display:block;
+        margin-left: 8em;
+    }
+
+    .button-profile{
+        margin-left: 2em;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    .button-upgrade{
+        margin-top: 1em;
+        margin-left: 9em;
+        font-size: 1em;
+    }
+}
+

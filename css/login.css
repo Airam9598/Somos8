@@ -76,8 +76,7 @@ form input[type="submit"]:hover{
     color: white;
     font-family: 'Raleway', serif;
     cursor: pointer;
-    margin-left: 12.2em;
-    margin-right: auto;
+
 }
 
 .text-mail-login{
@@ -105,9 +104,7 @@ form input[type="submit"]:hover{
 .forgot-password:hover{
     cursor: pointer;
     font-weight: bold;
-    margin-left: 4.8em;
-    margin-right: -2em;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 h2{
@@ -168,6 +165,12 @@ h2{
         font-size: 0.6em;
     }
 
+    .forgot-password:hover{
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 0.6em;
+    }
+
     h2{
         font-size: 1.5em;
         margin-top: 0.1em;
@@ -221,6 +224,13 @@ h2{
     .forgot-password{
         font-size: 0.7em;
     }
+
+    .forgot-password:hover{
+        font-size: 0.7em;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
 
     h2{
         font-size: 2em;

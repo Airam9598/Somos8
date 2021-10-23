@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Somos8</title>
+    <meta name="application-name" content="Somos8">
+    <meta name="author” content=”Kiowa_and_Airam">
+    <meta name="description" content="Prácticas_DAW1">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" href=../css/skeleton.css>
+    <link rel="stylesheet" href=../css/fontello-embedded.css>
+    <link rel="stylesheet" href=../css/profile.css>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function() {
+            $('footer').load("./footer.html");
+            $('.nav').load("./menu.html");
+        });
+    </script>
+</head>
+<body>
+<header>
+</header>
+<nav class ="nav"></nav>
+
+<div class="main_page">
+    <a class="login_button" href=""><p>apodoUsuario</p><span class="icon-user-circle-o"></span></a>
+    <div class="main_content vcenter hcenter">
+        <section class="profile">
+                <form action="" method="post">
+                    <div class="change_imagen">
+                        <p>
+                            <img src="../assets/profile.png" class="imagen-prof" id="image-profile">
+                        </p>
+                        <p>
+                            <input type="submit" value="Subir imagen" class="button-profile">
+                        </p>
+                    </div>
+                    <div class="personal-information">
+                        <p>
+                            <label for="name-user">Nombre de usuario</label>
+                            <input type="text" id="name-user" value="user01" size="31" readonly>
+                        </p>
+                        <p>
+                            <label for="email-profile">Correo electrónico</label>
+                            <input type="email" id="email-profile" value="user01@gmail.com" size="31" readonly>
+                        </p>
+                    </div>
+                    <div class="change-password">
+                        <p>
+                            <h3>Cambio de contraseña</h3>
+                        </p>
+                        <p>
+                            <label for="current-password">Contraseña actual</label>
+                            <input type="password" id="current-password" placeholder="contraseña actual" minlength="6"
+                                   maxlength="15" size="31">
+                        </p>
+                        <p>
+                            <label for="new-password">Nueva contraseña</label>
+                            <input type="password" id="new-password" placeholder="nueva contraseña" minlength="6"
+                                   maxlength="15" size="31">
+                        </p>
+                    </div>
+                    <p>
+                        <input type="submit" value="Actualizar" class="button-upgrade">
+                    </p>
+                </form>
+        </section>
+    </div>
+    <footer></footer>
+</div>
+</body>
+</html>
