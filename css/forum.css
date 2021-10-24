@@ -1,0 +1,109 @@
+*{
+    font-family: "Raleway", serif;
+}
+
+
+.forum{
+    position: fixed;
+    height: 25em;
+    width: 50em;
+    background: #ffffff7a;
+    border-radius: 1em;
+}
+
+.w3-container{
+    margin-top: 1.5em;
+    border: 0;
+}
+
+
+
+.w3-bar .w3-bar-item {
+    font-family: "Raleway", serif;
+}
+
+.w3-black, .w3-hover-black:hover {
+    width: 44.5em;
+    color: white !important;
+    margin-left: 2.5em;
+    border-radius: 1.5em;
+    background-color: var(--yellow) !important;
+    box-shadow: 0.4px 0.4px 0.4px black;
+    margin-bottom: 1em;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 0.5em 0px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: var(--yellow);
+    text-align: center;
+    cursor: pointer;
+    color: var(--gray);
+    white-space: nowrap;
+    font-weight: bold;
+    border-radius: 1.5em;
+    width: 10.9em;
+    height: min-content;
+    font-size: 1em;
+}
+table{
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+    padding: 10px 10px;
+    width: 44.5em;
+    margin-left: 2.5em;
+    height: max-content;
+    box-shadow: 0.4px 0.4px 0.4px black;
+    border-collapse: separate;
+    border-spacing: 10px 15px;
+    border-collapse: separate;
+}
+
+
+.container-general, .container-myexcursion, .container-myposts, .container-add{
+    overflow: auto;
+}
+
+a{
+    color: #1A5B97;
+    text-shadow: 0.1px 0.1px 0.1px;
+}
+
+a:hover{
+    color: var(--gray);
+    text-shadow: 0.1px 0.1px 0.1px;
+}
+
+.text-general{
+    margin-left: 10em;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #1A5B97;
+    text-shadow: 0.1px 0.1px 0.1px;
+    text-align: left;
+}
+
+.text-users{
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.w3-red, .w3-hover-red:hover {
+    color: white!important;
+    background-color: var(--gray)!important;
+}
+
+
+td {
+    color: #669;
+}
+
+
+
+
