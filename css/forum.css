@@ -1,0 +1,441 @@
+*{
+    font-family: "Raleway", serif;
+}
+
+
+.forum{
+    position: fixed;
+    height: 33em;
+    width: 50em;
+    background: #ffffff7a;
+    border-radius: 1em;
+}
+
+.w3-container{
+    margin-top: 1.5em;
+    border: 0;
+}
+
+
+
+.w3-bar .w3-bar-item {
+    font-family: "Raleway", serif;
+}
+
+.w3-black, .w3-hover-black:hover {
+    width: 44.5em;
+    color: white !important;
+    margin-left: 2.5em;
+    border-radius: 1.5em;
+    background-color: var(--yellow) !important;
+    box-shadow: 0.4px 0.4px 0.4px black;
+    margin-bottom: 1em;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 0.5em 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: var(--yellow);
+    text-align: center;
+    cursor: pointer;
+    color: var(--gray);
+    white-space: nowrap;
+    font-weight: bold;
+    border-radius: 1.5em;
+    width: 10.9em;
+    height: min-content;
+    font-size: 1em;
+}
+table{
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+    padding: 10px 10px;
+    width: 44.5em;
+    margin-left: 2.5em;
+    max-height: 10em;
+    box-shadow: 0.4px 0.4px 0.4px black;
+    border-collapse: separate;
+    border-spacing: 10px 15px;
+}
+
+.container-general{
+    /*overflow: auto;*/
+    /*height: 20em;*/
+}
+
+
+
+
+a{
+    color: #1A5B97;
+    text-shadow: 0.1px 0.1px 0.1px;
+}
+
+a:hover{
+    color: var(--gray);
+    text-shadow: 0.1px 0.1px 0.1px;
+}
+
+.text-general{
+    margin-left: 10em;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #1A5B97;
+    text-shadow: 0.1px 0.1px 0.1px;
+    text-align: left;
+}
+
+.search{
+    margin-left: 34em;
+}
+
+.text-users{
+    font-size: 0.7em;
+    text-align: left;
+}
+
+.w3-red, .w3-hover-red:hover {
+    color: white!important;
+    background-color: var(--gray)!important;
+}
+
+
+td {
+    color: #669;
+}
+
+/**BUTTON SEARCH*/
+form.search input[type=text] {
+    margin-left: -3em;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: var(--gray);
+    color: white;
+    font-size: 1em;
+    border-radius: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background: var(--yellow);
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.search{
+    display: none;
+}
+
+
+/**FORM ENTRY FORUM**/
+form.add_form{
+    background-color: transparent;
+    border-radius: 1em;
+    width: max-content;
+    margin-left: 4em;
+    font-family: "Raleway", serif;
+    outline: none;
+}
+
+.label_forum{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+    text-shadow: 0.1px 0.1px 0.1px;
+    color: var(--gray);
+}
+
+.add_date{
+    border-radius: 0.3em;
+    border:0;
+    padding: 4px;
+    margin-bottom: 0.6em;
+    box-shadow: 1px 1px 1px black;
+    text-align: left;
+
+}
+
+textarea{
+    text-align: right;
+    resize: none;
+}
+
+.button-forum{
+    margin-left: 8.4em;
+    padding: 0.6em 3.5em;
+    font-size: 1em;
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
+    border:0;
+    background-color: var(--yellow);
+    color: var(--gray);
+}
+
+.button-forum:hover{
+    cursor: pointer;
+    background-color: var(--gray);
+    color: white;
+}
+
+@media screen and (min-width: 0em) and (max-width: 23em) {
+    .forum{
+        width: 25em;
+        height: 32em;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2em;
+        font-size: 0.7em;
+    }
+
+
+    .w3-button{
+        width: 9em;
+        margin-right: 0;
+        font-size: 1.5em;
+
+    }
+    .w3-bar-item{
+        width: 10em;
+    }
+
+    .w3-black, .w3-hover-black:hover{
+        margin-top: -1em;
+        width: 48.2em;
+        height: 10em;
+        text-align: center;
+    }
+
+    .w3-container{
+        width: 40em;
+    }
+
+    .w3-black, .w3-hover-black:hover {
+        margin-left: 0.5em;
+        font-size: 0.5em;
+        padding: 1em;
+    }
+
+    .text-general{
+        color: transparent;
+        font-size: 0;
+    }
+
+    .text-users{
+        color: transparent;
+        opacity: 0;
+        font-size: 0;
+    }
+
+    .container-general{
+        margin-top: -1em;
+        overflow: auto;
+        /*height: 20em;*/
+    }
+
+    table{
+        width: 23em;
+        margin-left: 1em;
+    }
+
+    form.add_form{
+        width: max-content;
+        margin-left: 1em;
+    }
+
+    .label_forum{
+        font-size: 0.8em;
+        margin-bottom: 0.6em;
+    }
+
+    .add_date{
+        padding: 1.2px;
+        margin-bottom: 0.6em;
+
+    }
+
+    textarea{
+        font-size: 0.73em;
+    }
+
+    .button-forum{
+        margin-left: 6.4em;
+    }
+
+
+}
+
+@media screen and (min-width: 23em) and (max-width: 47em) {
+    .forum{
+        width: 30em;
+        height: 32em;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2em;
+        font-size: 0.7em;
+    }
+
+
+    .w3-button{
+        width: 15em;
+        margin-right: 0;
+        font-size: 2em;
+
+    }
+    .w3-bar-item{
+        width: 10em;
+    }
+
+    .w3-black, .w3-hover-black:hover{
+        margin-top: -1em;
+        width: 50em;
+        height: 10em;
+        text-align: center;
+    }
+
+    .w3-container{
+        width: 40em;
+        margin-left: 2em;
+    }
+
+    .w3-black, .w3-hover-black:hover {
+        margin-left: 0.5em;
+        font-size: 0.5em;
+        padding: 1em;
+    }
+
+    .text-general{
+        font-size: 0;
+    }
+
+    .text-users{
+        color: transparent;
+        opacity: 0;
+        font-size: 0;
+    }
+
+
+    table{
+        width: 23em;
+        margin-left: 0;
+    }
+
+    form.add_form{
+        width: max-content;
+        margin-left: 0;
+    }
+
+    .label_forum{
+        font-size: 0.9em;
+        margin-bottom: 0.6em;
+    }
+
+    .add_date{
+        padding: 1.2px;
+        margin-bottom: 0.6em;
+
+    }
+
+    textarea{
+        font-size: 0.73em;
+    }
+
+    .button-forum{
+        margin-left: 6.4em;
+    }
+
+}
+
+@media screen and (min-width: 47em) and (max-width: 60em) {
+    .forum{
+        width: 52em;
+        height: 52em;
+        margin-top: 2em;
+        align-content: center;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+    }
+
+
+    form.add_form{
+        width: max-content;
+        margin-left: 2.1em;
+    }
+
+    .label_forum{
+        font-size: 2em;
+        margin-bottom: 0.6em;
+    }
+
+    textarea{
+        font-size: 1.4em;
+    }
+
+    .add_date{
+        font-size: 1.4em;
+    }
+
+    .button-forum{
+        margin-top: 0.5em;
+        margin-left: 6.4em;
+        font-size: 2em;
+    }
+
+    .w3-button{
+        width: 10em;
+        margin-right: 0;
+        font-size: 1em;
+    }
+
+    .w3-black, .w3-hover-black:hover {
+        margin-left: 1.5em;
+        font-size: 1.1em;
+        padding: 0.3em;
+    }
+
+    .text-general{
+        font-size: 0;
+    }
+
+    .text-users{
+        color: transparent;
+        opacity: 0;
+        font-size: 0;
+    }
+
+    a{
+        font-size: 2em;
+    }
+
+}
