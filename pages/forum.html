@@ -35,6 +35,12 @@
             }
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " w3-red";
+            tab = document.getElementById(tabName);
+            if (tab.className === 'w3-container w3-border city add'){
+                document.getElementById("searcher").style.display = 'none';
+            }else{
+                document.getElementById("searcher").style.display = 'block';
+            }
         }
 
     </script>
@@ -58,7 +64,7 @@
 
                 <section class="search">
 
-                    <form class="search" action="" style="margin:auto;max-width:300px;border-radius: 1em">
+                    <form class="search" id="searcher" action="" style="margin:auto;max-width:300px;border-radius: 1em">
                         <input type="text" placeholder="Busca.." name="search2">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
@@ -159,10 +165,10 @@
                     </article>
                 </section>
 
-                <section class="container-add">
+                <section class="container-add" id="cont_sect">
 
-                    <article id="add" class="w3-container w3-border city" style="display:none">
-                        <form class="add_form""" action="" method="post">
+                    <article id="add" class="w3-container w3-border city add" style="display:none">
+                        <form class="add_form" action="" method="post">
                             <p>
                                 <label class="label_forum" for="place">Lugar*:</label>
                                 <input class="add_date" type="text" id="place"
