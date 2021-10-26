@@ -1,15 +1,19 @@
 *{
     font-family: "Raleway", serif;
 }
-
-
 .forum{
-    position: fixed;
-    height: 33em;
-    width: 50em;
+    width: 90%;
+    min-height: calc(100vh - 186px);
+    height: max-content;
+    background: #ffffff80;
+    border-radius: 10px;
+    box-shadow: #00000063 1px 1px 2px 0;
+    position: relative;
+    padding: 10px;
     background: #ffffff7a;
     border-radius: 1em;
 }
+
 
 .w3-container{
     margin-top: 1.5em;
@@ -23,7 +27,7 @@
 }
 
 .w3-black, .w3-hover-black:hover {
-    width: 44.5em;
+    width: 68.5em;
     color: white !important;
     margin-left: 2.5em;
     border-radius: 1.5em;
@@ -46,22 +50,19 @@
     white-space: nowrap;
     font-weight: bold;
     border-radius: 1.5em;
-    width: 10.9em;
+    width: 16.9em;
     height: min-content;
     font-size: 1em;
 }
 table{
-    background-color: white;
     margin-top: 2em;
     margin-bottom: 2em;
     border-radius: 0.3em;
     padding: 10px 10px;
-    width: 44.5em;
+    width: 70.5em;
     margin-left: 2.5em;
-    max-height: 10em;
-    box-shadow: 0.4px 0.4px 0.4px black;
     border-collapse: separate;
-    border-spacing: 10px 15px;
+    border-spacing: 80px 15px;
 }
 
 .container-general{
@@ -70,14 +71,13 @@ table{
 }
 
 
-
-
-a{
+.name-entry{
+    font-size: 1.3em;
     color: #1A5B97;
     text-shadow: 0.1px 0.1px 0.1px;
 }
 
-a:hover{
+.name-entry:hover{
     color: var(--gray);
     text-shadow: 0.1px 0.1px 0.1px;
 }
@@ -85,18 +85,20 @@ a:hover{
 .text-general{
     margin-left: 10em;
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #1A5B97;
     text-shadow: 0.1px 0.1px 0.1px;
     text-align: left;
 }
 
 .search{
-    margin-left: 34em;
+    display: none;
+    margin-top: 3em;
+    margin-left: 41em;
 }
 
 .text-users{
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: left;
 }
 
@@ -112,7 +114,7 @@ td {
 
 /**BUTTON SEARCH*/
 form.search input[type=text] {
-    margin-left: -3em;
+    margin-left: 0em;
     padding: 10px;
     font-size: 1.1em;
     border: 1px solid grey;
@@ -143,9 +145,8 @@ form.search::after {
     display: table;
 }
 
-.search{
-    display: none;
-}
+
+
 
 
 /**FORM ENTRY FORUM**/
@@ -203,21 +204,20 @@ textarea{
 @media screen and (min-width: 0em) and (max-width: 23em) {
     .forum{
         width: 25em;
-        height: 32em;
+        height: 30em;
         align-content: center;
         display: block;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -2em;
+        margin-top: 0;
         font-size: 0.7em;
     }
 
 
     .w3-button{
-        width: 9em;
         margin-right: 0;
-        font-size: 1.5em;
+        font-size: 2em;
 
     }
     .w3-bar-item{
@@ -226,7 +226,7 @@ textarea{
 
     .w3-black, .w3-hover-black:hover{
         margin-top: -1em;
-        width: 48.2em;
+        width: 44.2em;
         height: 10em;
         text-align: center;
     }
@@ -239,6 +239,10 @@ textarea{
         margin-left: 0.5em;
         font-size: 0.5em;
         padding: 1em;
+    }
+
+    name-entry{
+        font-size: 0.8em;
     }
 
     .text-general{
@@ -259,28 +263,35 @@ textarea{
     }
 
     table{
-        width: 23em;
+        width: 21em;
         margin-left: 1em;
+        border-spacing: 0px 18px;
     }
 
     form.add_form{
         width: max-content;
-        margin-left: 1em;
+        margin-left: 0.5em;
+        margin-left: 0.5em;
+    }
+
+    input{
+        font-size: 1em;
     }
 
     .label_forum{
-        font-size: 0.8em;
+        font-size: 1.2em;
         margin-bottom: 0.6em;
     }
 
     .add_date{
         padding: 1.2px;
-        margin-bottom: 0.6em;
+        margin-bottom: 1em;
+
 
     }
 
     textarea{
-        font-size: 0.73em;
+        font-size: 0.71em;
     }
 
     .button-forum{
@@ -299,7 +310,7 @@ textarea{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -2em;
+        margin-top: 1em;
         font-size: 0.7em;
     }
 
@@ -316,20 +327,19 @@ textarea{
 
     .w3-black, .w3-hover-black:hover{
         margin-top: -1em;
-        width: 50em;
+        width: 45em;
         height: 10em;
-        text-align: center;
+        margin-left: 0.5em;
+        font-size: 0.5em;
+        padding: 1em;
+        margin-left: 0.5em;
+        font-size: 0.5em;
+        padding: 1em;
     }
 
     .w3-container{
         width: 40em;
         margin-left: 2em;
-    }
-
-    .w3-black, .w3-hover-black:hover {
-        margin-left: 0.5em;
-        font-size: 0.5em;
-        padding: 1em;
     }
 
     .text-general{
@@ -344,23 +354,25 @@ textarea{
 
 
     table{
-        width: 23em;
-        margin-left: 0;
+        width: 25em;
+        margin-left: -1.5em;
+        border-spacing: 10px 18px;
     }
 
     form.add_form{
+        margin-top: 3em;
         width: max-content;
-        margin-left: 0;
+        margin-left: -1em;
     }
 
     .label_forum{
-        font-size: 0.9em;
-        margin-bottom: 0.6em;
+        font-size: 1.1em;
+        margin-bottom: 1em;
     }
 
     .add_date{
         padding: 1.2px;
-        margin-bottom: 0.6em;
+        margin-bottom: 1.2em;
 
     }
 
@@ -377,7 +389,6 @@ textarea{
 @media screen and (min-width: 47em) and (max-width: 60em) {
     .forum{
         width: 52em;
-        height: 52em;
         margin-top: 2em;
         align-content: center;
         display: block;
@@ -389,6 +400,7 @@ textarea{
 
 
     form.add_form{
+        margin-top: 4em;
         width: max-content;
         margin-left: 2.1em;
     }
@@ -404,6 +416,7 @@ textarea{
 
     .add_date{
         font-size: 1.4em;
+        margin-bottom: 1.4em;
     }
 
     .button-forum{
@@ -413,12 +426,14 @@ textarea{
     }
 
     .w3-button{
-        width: 10em;
+        width: 9em;
         margin-right: 0;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .w3-black, .w3-hover-black:hover {
+        width: 41em;
+        height: auto;
         margin-left: 1.5em;
         font-size: 1.1em;
         padding: 0.3em;
@@ -434,8 +449,15 @@ textarea{
         font-size: 0;
     }
 
-    a{
+    .name-entry{
         font-size: 2em;
+    }
+
+    table{
+        width: 46em;
+        margin-left: 2em;
+        border-spacing: 5px 40px;
+        border: 0;
     }
 
 }
