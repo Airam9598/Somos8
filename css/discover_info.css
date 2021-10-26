@@ -50,6 +50,11 @@
     color: black;
 }
 
+.more_info:hover{
+    text-decoration: underline;
+    background: #ecbb43;
+}
+
 .discover_info .info{
     display: inline-block;
     width: 58vw;
@@ -68,6 +73,10 @@
     color: white;
     text-decoration: none;
     border:var(--yellow) 3px solid;
+}
+
+.back:hover{
+    background: #562727;
 }
 
 .back span{
@@ -115,13 +124,24 @@
     border-radius: 10px;
     clear: both;
     position: relative;
+    display: flex;
+    padding: 10px;
+    max-width: 750px;
+}
+
+.coments .text{
+    width:max-content;
+    margin-left: 130px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
 }
 
 .coments article img{
     width: 5em;
     height: auto ;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin:auto 1px;
 }
 
 .coments article .username{
@@ -130,6 +150,27 @@
     left: 6em;
     top: 10px;
 
+}
+
+.star-rating {
+    display: block;
+    width: max-content;
+    position: absolute;
+    top: 42px;
+    left: 94px;
+    height: max-content;
+}
+.star-rating a {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: color .3s;
+    margin:1px;
 }
 @media screen and (min-width: 1200px){
     .discover_info .info{
@@ -194,6 +235,16 @@
     }
     .coments a{
         font-size: 1em;
+    }
+
+    .coments article{
+        display: block;
+    }
+
+    .coments .text{
+        margin-left: 0;
+        margin-top:10px;
+        max-width: 95%;
     }
 
 

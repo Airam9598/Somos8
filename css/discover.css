@@ -24,16 +24,24 @@
     padding: 10px;
     background: var(--gray);
     width: 165px;
-    display: inline-block;
+    display: inline-flex;
     border-radius: 10px;
     border: var(--yellow) 3px solid;margin: 10px;
     color: white;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.62) 2px 2px 2px 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
 }
 
 .filter article span{
     margin-right: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
 }
 
 .categories{
@@ -97,6 +105,10 @@
     text-decoration: none;
 }
 
+.categories article a:hover{
+    background: #562727;
+}
+
 .category_info{
     margin-top:10px;
     min-height: calc(100vh - 206px);
@@ -111,6 +123,7 @@
     padding: 7px 9px;
 }
 
+
 .back{
     position: absolute;
     width: max-content;
@@ -123,9 +136,47 @@
     text-decoration: none;
     border:var(--yellow) 3px solid;
 }
+.back:hover{
+    background: #562727;
+}
 
 .back span{
     margin-right: 10px;
+}
+
+
+.tenerife{
+    background-image: url("../assets/Tenerife.png");
+}
+.gran_canaria{
+    background-image: url("../assets/Gran_Canaria.png");
+}
+.fuerteventura{
+    background-image: url("../assets/Fuerteventura.png");
+}
+
+.lanzarote{
+    background-image: url("../assets/Lanzarote.png");
+}
+
+.hierro{
+    background-image: url("../assets/El_Hierro.png");
+}
+
+.gomera{
+    background-image: url("../assets/La_Gomera.png");
+}
+
+.palma{
+    background-image: url("../assets/La_Palma.png");
+}
+
+.graciosa{
+    background-image: url("../assets/la_graciosa.png");
+}
+
+.islas{
+    background-image: url("../assets/islas-canarias.png");
 }
 
 
@@ -138,11 +189,6 @@
         width: 165PX;
     }
 
-    .filter article span{
-        display: unset;
-        width: unset;
-        margin-bottom: auto;
-    }
 
     .categories article{
         margin:20px;
@@ -174,9 +220,9 @@
     }
 
     .filter article span{
-        display: block;
-        width: 100%;
-        margin-bottom: 10px;
+        display: unset;
+        width: unset;
+        margin-bottom: auto;
     }
 
     .categories article{

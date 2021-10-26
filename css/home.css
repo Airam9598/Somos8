@@ -18,7 +18,7 @@
     margin: 10px;
     background: #f3f3f3ab;
     border-radius: 5px;
-    box-shadow: #00000073 0px 2px 4px 0px
+    box-shadow: #00000073 0px 2px 4px 0px;
 }
 
 .home article img{
@@ -58,7 +58,7 @@
     background: #eab734;
 }
 
-@media screen and (min-width: 0em) and (max-width: 80em) {
+@media screen and (min-width: 0em) and (max-width: 70em) {
 
     .main_page{
         width: 100%;
