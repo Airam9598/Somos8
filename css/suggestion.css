@@ -4,242 +4,152 @@
 }
 
 *{
-    font-family: 'Raleway', serif;
+    font-family: "Fontello", "Raleway", serif;
 }
 
-.suggestion{
-    width: 100%;
-}
-.content{
-    margin: auto;
-    display: flex;
-    width: 60%;
-    flex-wrap: wrap;
+
+
+form.rounded.mt-5{
+    padding:1.5em;
+    background-color:var(--yellow);
     text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Estilo para el formulario*/
-form{
-    background-color: var(--yellow);
-    font-weight: bold;
-    color: var(--gray);
-    box-sizing: content-box;
-    width: 88%;
-    height: 400%;
-    text-align: center;
-    margin: 0 1%;
-    padding: 3% 20px;
-    border-radius: 40px;
-}
-
-
-h2{
-    font-size: 2.3em;
-    margin-bottom: 2.5%;
-}
-
-
-h1{
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 3.5em;
-    font-weight: bold;
-    color: var(--gray);
-}
-
-.line {
-    border-top: 3px solid black;
-    height: 0;
-    width: 65vh;
-    max-width: 50vh;
-    margin: 10px 400px;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    color: var(--gray);
-}
-
-input{
-    border-radius: 25px;
-    margin-top: 2%;
-    margin-bottom: 4%;
-    padding: 2% 6%;
-    text-align: center;
-    border: 0;
-
-    font-weight: bold;
-    font-size: 1em;
-}
-
-input, textarea{
-    outline: none;
-}
-
-textarea{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    border: 0 solid #000;
-    width: 40vh;
-    height: 135px;
-    text-align: left;
-    border-radius: 13px;
-    resize: none;
-}
-
-
-.button-suggestion{
-    background-color: var(--gray);
-    color: white;
-    padding: 8px 20px;
-    border-radius: 15px;
-}
-
-.button-suggestion:hover{
-    background-color: #4B2A22;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.cont-text{
-    border-radius: 15px;
-    height: 3%;
-    width: 33vh;
-    margin-left: 3%;
-    margin-top: -10%;
-    background-color: rgba(0,0,0,0.02);
     box-shadow: 2px 2px 5px black;
+
+}
+
+.main_content{
+    font-size: xx-small;
+}
+
+
+textarea#floatingTextarea2.form-control.mb-3{
+    resize: none;
+    font-size: small;
+}
+
+label{
+    font-size: small;
+}
+
+
+button.btn-primary{
+    box-shadow: 2px 2px 5px black;
+    font-size: medium;
+    background-color: var(--gray);
+    border: 0 #89775a;
+}
+
+
+button.btn-primary:hover{
+    cursor: pointer;
+    background-color: #976f30;
+}
+
+h1.row.mt-3{
+    font-size: xxx-large;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+
+h2.mb-4{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+span, span.text-propuesta{
+    font-weight: bold;
+    font-size: small;
+}
+
+
+p.text1{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 3em;
+    background-color: #ffffff7a;
     text-align: center;
-
+    border-radius: 6px;
 }
 
-.text-propose{
-    color: var(--gray);
+p.text2{
+    font-weight: normal;
+    font-size: large;
+    margin-left: 3em;
+    background-color: #ffffff7a;
+    text-align: center;
+    border-radius: 6px;
 }
 
-.text-help{
-    margin-top: 6%;
-    color: var(--gray);
-    font-weight: bold;
-    font-size: 1.8em;
-}
-
-.text-objective{
-    margin-bottom: 6%;
-    color: black;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-
-@media screen and (min-width: 0em) and (max-width: 48em) {
-    .main_content{
-        align-items: center;
-    }
-    .suggestion{
-        position: fixed;
-        width: 100%;
-        align-content: center;
-        display: block;
+@media (max-width: 700px) {
+    *{
+        font-size: x-small;
     }
 
-    .text-propose{
-        font-size: 0.8em;
+    h2.mb-4{
+        font-size: x-large;
     }
 
-    h2{
-        margin: 0 0.3em;
-        font-size: 1.6em;
-    }
-
-    input{
-        width: 100%;
-        font-size: 0.7em;
-    }
-    textarea{
-        font-size: 1em;
-        height: 10em;
-        width: 14em;
-    }
-    form{
-        height: max-content;
-        width: 15em;
-
-    }
-    .line{
-        display: none;
-
-    }
-    h1{
+    h1.row.mt-3, p.text1, p.text2{
         display: none;
     }
+}
 
-    .cont-text{
+@media (min-width: 701px) and (max-width: 1023px) {
+    input#name.form-control, button.btn-primary, label, input#mail-suggestion.form-control, textarea#floatingTextarea2.form-control.mb-3{
+        font-size: small;
+    }
+
+    span, span.text-propuesta{
+        font-size: small;
+    }
+    h2.mb-4{
+        font-size: x-large;
+    }
+
+    p.text1, p.text2{
+        font-size: medium;
+    }
+
+    h1.row.mt-3{
         display: none;
     }
 
 }
 
-@media screen and (min-width: 48em) and (max-width: 80em) {
-    .suggestion{
-        justify-content: center;
-        position: fixed;
-        width: 100%;
-        align-content: center;
-        display: block;
+
+@media (min-width: 701px) and (max-width: 1023px) {
+    section.suggestion{
+        font-size: large;
+    }
+    input#name.form-control, button.btn-primary, label, input#mail-suggestion.form-control,  span, span.text-propuesta, textarea#floatingTextarea2.form-control.mb-3{
+        font-size: large;
+    }
+    h2.mb-4{
+        font-size: xx-large;
     }
 
-    .text-propose{
-        font-size: 0.8em;
+    p.text1, p.text2{
+        font-size: x-large;
     }
 
-    h2{
-        margin: 0.3em 0.3em;
-        font-size: 1.6em;
-    }
-
-    input{
-        width: 100%;
-        font-size: 0.7em;
-    }
-    textarea{
-        font-size: 1em;
-        height: 10em;
-        width: 14.5em;
-    }
-    form{
-        margin: 1.4em 1.4em;
-        margin-left: 2.9em;
-        height: max-content;
-        width: 15em;
-
-    }
-    .line{
-        margin: 1em;
-        width: 22em;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    h1{
-        margin: auto;
-        font-size: 3em;
-    }
-
-    .cont-text{
-        margin-left: 34em;
-        position: fixed;
-        width: 12em;
-        height: 8em;
-    }
-
-    .text-help{
-        font-size: 1.2em;
-    }
-    .text-objective{
-        font-size: 1em;
+    h1.row.mt-3{
+        font-size: 3.5em;
     }
 
 }
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    *{
+        font-size: small;
+    }
+}
+
+
+
+
+
+
+

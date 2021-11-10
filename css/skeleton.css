@@ -129,7 +129,7 @@ html, body{
 .login_button{
     position: absolute;
     right: 24px;
-    top: 24px;
+    top: 1em;
     border-radius: 100px;
     background-color: var(--yellow);
     text-decoration: none;
@@ -137,7 +137,7 @@ html, body{
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    padding: 2px 9px;
+    padding: 4px 9px;
     color:var(--gray);
     box-shadow: black 1px 1px 4px 1px;
 }
