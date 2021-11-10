@@ -126,32 +126,38 @@ html, body{
     position:absolute
 }
 
+.login-box{
+    justify-content: right;
+}
+
 .login_button{
-    position: absolute;
-    right: 24px;
-    top: 1em;
-    border-radius: 100px;
-    background-color: var(--yellow);
+    border-radius: 100px !important;
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow)!important;
     text-decoration: none;
     display: flex;
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    padding: 4px 9px;
-    color:var(--gray);
-    box-shadow: black 1px 1px 4px 1px;
+    color:var(--gray)!important;
+    box-shadow: #00000073 0px 2px 4px 0px;
+    margin-top:1rem !important;
 }
 
-.login_button:hover{
+.login_button:hover, .login_button:focus , .login_button:active {
     color:black;
-    box-shadow: black 1px 1px 4px 1px;
+    box-shadow: rgba(0, 0, 0, 0.58) 0px 2px 4px 0px;
     background-color: #f3be3f;
 }
+
+.login_button:focus{
+    box-shadow:  0 0 0.25rem rgb(236, 187, 67) !important;
+}
 .login_button p{
-    padding: 10px;
     width: max-content;
     display: inline-block;
     position: relative;
+    margin:0 !important;
 }
 .login_button p::after{
     content: "";
@@ -178,14 +184,12 @@ html, body{
 
 footer{
     width: 100%;
-    height: 90px;
-    bottom: 0;
     color: white;
     padding: 5px;
     background: linear-gradient(to bottom,rgb(50 49 49), rgb(26 26 26));
     box-shadow: rgb(50 49 49) 2px 0 1px 3px;
-    margin-top: 10px;
     display: block;
+    margin-top: 1rem !important;
 }
 
 footer section{
@@ -196,13 +200,15 @@ footer section{
 
 footer section p{
     font-size: 1.2em;
+    margin:0 !important;
 }
 footer section ul{
     font-size: 1em;
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
 }
 
 .icon-user-circle-o:before {
@@ -218,12 +224,12 @@ footer section ul{
     position: relative;
 }
 
-.vcenter{
-    align-items: center;
+.wrapper {
+    display: flex;
+    width: 100%;
 }
-
-.hcenter{
-    justify-content: center;
+#content{
+    min-height: 100vh;
 }
 
 @media screen and (min-width: 0em) and (max-width: 70em) {

@@ -1,68 +1,61 @@
-.home{
-    margin: auto;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    TEXT-ALIGN: CENTER;
-    JUSTIFY-CONTENT: CENTER;
-    ALIGN-ITEMS: CENTER;
-    HEIGHT: MAX-CONTENT;
-}
 
-.home article{
-    width: 30em;
-    max-width: 490px;
-    height: MAX-CONTENT;
-    display: INLINE-BLOCK;
-    padding: 10px;
-    margin: 10px;
-    background: #f3f3f3ab;
-    border-radius: 5px;
+.homeart{
     box-shadow: #00000073 0px 2px 4px 0px;
+    border-radius: 0.4rem !important;
+    width: 28rem;
+    background-color: #fffc !important;
+    border:none!important;
+    margin:1rem;
+    text-align: center;
 }
 
-.home article img{
-    width: 100%;
-    max-height: 13em;
-    border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: #00000082 1px 1px 8px 0px;
-    margin-bottom: 15px;
+.homeart img{
+    border-radius: 0.4rem 0.4rem 0 0;
 }
 
-.home article p{
-    width: 100%;
-    height: max-content;
-    text-shadow: #00000054 0px 0px 2px;
-    font-size: 1.1em;
-}
-
-.home article a{
-    text-decoration: none;
+.homeart a{
+    float: right;
+    background-color: var(--yellow);
+    border-color: var(--yellow);
     color: black;
-    background: var(--yellow);
-    padding: 10px 25px;
-    margin-top: 16px;
-    margin-right: 0;
-    margin-left: auto;
-    display: block;
-    width: max-content;
-    border-radius: 100px;
-    box-shadow: #000000a6 1px 1px 4px 0px;
     font-weight: bold;
-    font-size: 1em;
 }
 
-.home article a:hover{
+
+.homeart a:hover, a:focus, a:active{
     text-decoration: underline;
-    background: #eab734;
+    background: #eab734 !important;
+    border-color: #eab734 !important ;
 }
 
-@media screen and (min-width: 0em) and (max-width: 70em) {
+.homeart a:focus{
+    box-shadow:  0 0 0.25rem rgb(236, 187, 67) !important;
+}
 
-    .main_page{
-        width: 100%;
-        max-width: 100%;
+.home{
+    display: flex!important;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+    .homeart{
+        width: 86vw !important;
+    }
+    .home{
+        display: flex!important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .homeart{
+        width: 94vw !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home{
+        display: block!important;
     }
 
 }
