@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Somos8</title>
-    <meta name="application-name" content="Somos8">
-    <meta name="author” content=”Kiowa_and_Airam">
-    <meta name="description" content="Prácticas_DAW1">
-    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-    <link rel="stylesheet" href=../css/skeleton.css>
-    <link rel="stylesheet" href=../css/fontello-embedded.css>
-    <link rel="stylesheet" href=../css/discover.css>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script>
-        $(function() {
-            $('footer').load("./footer.html");
-            $('.nav').load("./menu.html");
-        });
-    </script>
-</head>
-<body>
-<header>
-</header>
-<nav class ="nav"></nav>
+    <head>
+        <meta charset="UTF-8">
+        <title>Somos8</title>
+        <meta name="application-name" content="Somos8">
+        <meta name="author” content=”Kiowa_and_Airam">
+        <meta name="description" content="Prácticas_DAW1">
+        <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+        <link rel="stylesheet" href=../css/skeleton.css>
+        <link rel="stylesheet" href=../css/fontello-embedded.css>
+        <link rel="stylesheet" href=../css/discover.css>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script>
+            $(function() {
+                $('footer').load("./footer.html");
+                $('.nav').load("./menu.html");
+            });
+        </script>
+    </head>
+    <body>
+        <header></header>
+        <nav class ="nav"></nav>
+        <div class="main_page">
+            <div class="container-fluid min-vh-100 d-block">
+                <section class="row min-vh-100">
+                    <article class="col-md-12 d-flex align-items-start justify-content-end">
+                        <a class="btn btn-primary login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
+                    </article>
+                    <article class="col-md-12 align-items-center d-flex justify-content-center ">
+                        <div class="discover">
+                            <section id ="filter" class="d-flex p-2">
+                                <div>
+                                    <article><span class="gran_canaria"></span>Gran Canaria</article>
+                                    <article><span class="tenerife"></span>Tenerife</article>
+                                    <article><span class="lanzarote"></span>Lanzarote</article>
+                                    <article><span class="fuerteventura"></span>Fuerteventura</article>
+                                    <article><span class="palma"></span>La Palma</article>
+                                    <article><span class="gomera"></span>La Gomera</article>
+                                    <article><span class="hierro"></span>El Hierro</article>
+                                    <article><span class="graciosa"></span>La Graciosa</article>
+                                </div>
+                                <div>
+                                    <article class="all"><span class="islas"></span>Todas</article>
+                                </div>
+                            </section>
+                            <section class="categories">
+                                <p>Gran Canaria</p>
+                                <article class="card">
+                                    <div class="card-body">
+                                        <img src="../assets/c_restaurantes.png">
+                                        <h5 class="card-title">Restaurantes</h5>
+                                        <a class="btn btn-primary" href="discover_categories.html">Ver</a>
+                                    </div>
+                                </article>
 
-<div class="main_page">
-    <a class="login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
-    <div class="main_content vcenter hcenter">
-        <div class="discover">
-            <section class="filter">
-                <div>
-                    <article><span class="gran_canaria"></span>Gran Canaria</article>
-                    <article><span class="tenerife"></span>Tenerife</article>
-                    <article><span class="lanzarote"></span>Lanzarote</article>
-                    <article><span class="fuerteventura"></span>Fuerteventura</article>
-                    <article><span class="palma"></span>La Palma</article>
-                    <article><span class="gomera"></span>La Gomera</article>
-                    <article><span class="hierro"></span>El Hierro</article>
-                    <article><span class="graciosa"></span>La Graciosa</article>
-                </div>
-                <div>
-                    <article style="background: var(--yellow)"><span class="islas"></span>Todas</article>
-                </div>
-            </section>
-            <section class="categories">
-                <p>Gran Canaria</p>
-                <article>
-                    <img src="../assets/c_restaurantes.png">
-                    <p>Restaurantes</p>
-                    <a href="discover_categories.html">Ver</a>
-                </article>
-                <article>
-                    <img src="../assets/c_fiestas.png">
-                    <p>Fiestas Populares</p>
-                    <a href="discover_categories.html">Ver</a>
-                </article>
-                <article>
-                    <img src="../assets/c_lugares.png">
-                    <p>Visitas Interesantes</p>
-                    <a href="discover_categories.html">Ver</a>
-                </article>
-            </section>
+                                <article class="card">
+                                    <div class="card-body">
+                                        <img src="../assets/c_fiestas.png">
+                                        <h5 class="card-title">Fiestas Populares</h5>
+                                        <a class="btn btn-primary" href="discover_categories.html">Ver</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <div class="card-body">
+                                        <img src="../assets/c_lugares.png">
+                                        <h5 class="card-title">Visitas Interesantes</h5>
+                                        <a class="btn btn-primary" href="discover_categories.html">Ver</a>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </article>
+                    <article class="col-md-12 align-items-end d-flex justify-contents-bottom px-0">
+                        <footer class="row mx-0 text-white mt-3 w-100 pt-2"></footer>
+                    </article>
+                </section>
+            </div>
         </div>
-    </div>
-    <footer></footer>
-</div>
-
-</body>
+    </body>
 </html>

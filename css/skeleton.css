@@ -1,13 +1,14 @@
 :root {
     --yellow: #EEB523;
     --gray:#37342F;
+    --darkyellow:#976f30;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Raleway", serif;
+    font-family: "Raleway", serif !important;
 }
 
 html, body{
@@ -17,7 +18,7 @@ html, body{
 
 /*estilos para el icono del menu*/
 .icono-menu{
-    margin: 20px;
+    margin: 10px;
     position: fixed;
     z-index: 10;
     width: 50px;
@@ -162,7 +163,7 @@ html, body{
 .login_button p::after{
     content: "";
     background: black;
-    width: 87%;
+    width: 100%;
     position: absolute;
     height: 2px;
     bottom: 0;
@@ -171,71 +172,85 @@ html, body{
     margin: auto;
     top: 18px;
     transform: scaleX(0);
+    transition: 0.5s;
+}
+
+.login_button:hover p::after{
+    transform: scaleX(1);
+    transition: 0.5s;
 }
 
 .login_button span{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
+    margin-left: 5px;
 }
 
 footer{
-    width: 100%;
-    color: white;
-    padding: 5px;
     background: linear-gradient(to bottom,rgb(50 49 49), rgb(26 26 26));
     box-shadow: rgb(50 49 49) 2px 0 1px 3px;
-    display: block;
-    margin-top: 1rem !important;
 }
 
+footer section p{
+    font-size: 1.1em;
+    margin:0 !important;
+    height: max-content;
+}
+
+footer .creators ul li{
+    text-align: left;
+}
+
+footer .links ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 0 !important;
+}
+
+footer .links ul a{
+    padding: 0 !important;
+    margin:5px;
+}
+
+footer .links ul a:hover{
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+
+footer .links ul span{
+    font-size: larger;
+}
+
+footer .copyright{
+    font-size: 1em;
+    font-family: Arial;
+    background: #111111;
+    margin:0 !important;
+    padding: 2px;
+}
 footer section{
     width: 49%;
     display: inline-grid;
     text-align: center;
 }
 
-footer section p{
-    font-size: 1.2em;
-    margin:0 !important;
-}
 footer section ul{
     font-size: 1em;
-    width: max-content;
     margin-left: auto;
     margin-right: auto;
     margin-top:0 !important;
     margin-bottom:0 !important;
+    list-style: square;
 }
 
 .icon-user-circle-o:before {
     transform: scale(1.5);
 }
 
-.main_content{
-    width: 100%;
-    height: max-content;
-    min-height: calc(100vh - 186px);
-    margin-top: 86px;
-    display: flex;
-    position: relative;
-}
-
-.wrapper {
-    display: flex;
-    width: 100%;
-}
-#content{
-    min-height: 100vh;
-    display: block;
-}
-
-.content-internal{
-    min-height: 100vh;
-}
 
 @media screen and (min-width: 0em) and (max-width: 70em) {
     .cont-menu ul {
@@ -259,12 +274,18 @@ footer section ul{
     footer section p{
         font-size: 1.1em;
     }
+    footer section{
+        margin:20px 0;
+    }
 
 }
 
 @media screen and (max-width: 480px) {
     footer section p{
         font-size: 1em;
+    }
+    footer section{
+        margin:20px 0;
     }
 
 }

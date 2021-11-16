@@ -1,26 +1,20 @@
 
 .discover{
     width: 95%;
-    min-height: calc(100vh - 186px);
     height: max-content;
     background: #ffffff80;
     border-radius: 10px;
-    box-shadow: #00000063 1px 1px 2px 0;
+    box-shadow: #00000073 0px 2px 4px 0px;
+    margin-top:20px;
 }
 
-.filter{
-    display: flex;
-    height: max-content;
-    padding: 10px;
-}
-.filter div{
+#filter div{
    margin: auto;
     text-align: center;
-
 }
 
 
-.filter article{
+#filter article{
     padding: 10px;
     background: var(--gray);
     width: 165px;
@@ -29,13 +23,24 @@
     border: var(--yellow) 3px solid;margin: 10px;
     color: white;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.62) 2px 2px 2px 1px;
+    box-shadow: #00000073 0px 2px 4px 0px;
     justify-content: center;
     align-items: center;
     padding: 7px;
 }
 
-.filter article span{
+#filter article:hover{
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+.all{
+    background: var(--yellow)!important;
+}
+.all:hover{
+    color: black!important;
+}
+#filter article span{
     margin-right: 8px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,16 +68,16 @@
 
 .categories article{
     BACKGROUND: var(--yellow);
-    width: 230PX;
+    width: 18rem;
     height: 118PX;
-    border-radius: 20px;
+    border-radius: 5px;
     position: relative;
     display: inline-block;
     margin:20px;
-    BOX-SHADOW: #000000ad 2PX 2PX 3PX 0;
+    box-shadow: #000000cc 0px 2px 4px 0px;
 }
 
-.categories article img{
+.card img{
     width: 95px;
     height: 95px;
     left: 10px;
@@ -84,13 +89,13 @@
     border-radius: 10px;
 }
 
-.categories article p{
+.card h5{
     font-weight: bold;
     position: absolute;
     top: 10px;
     margin: auto;
     right: 20px;
-    width: 100px;
+    width: 127px;
     font-size: 1em;
 }
 
@@ -103,26 +108,21 @@
     border-radius: 10px;
     color: white;
     text-decoration: none;
+    border: none;
 }
 
 .categories article a:hover{
-    background: #562727;
+    background: var(--darkyellow);
 }
 
-.category_info{
-    margin-top:10px;
-    min-height: calc(100vh - 206px);
-    position: relative;
-}
 
-.category_info article{
+#info article{
     width: 273px;
 }
 
-.category_info article a{
+#info article a{
     padding: 7px 9px;
 }
-
 
 .back{
     position: absolute;
@@ -131,19 +131,28 @@
     left: 10px;
     background: var(--gray);
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px;
     color: white;
     text-decoration: none;
     border:var(--yellow) 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .back:hover{
-    background: #562727;
+    background: var(--darkyellow);
+    color: white;
 }
 
 .back span{
     margin-right: 10px;
+    background-image: url("../assets/arrow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
-
 
 .tenerife{
     background-image: url("../assets/Tenerife.png");
@@ -154,41 +163,39 @@
 .fuerteventura{
     background-image: url("../assets/Fuerteventura.png");
 }
-
 .lanzarote{
     background-image: url("../assets/Lanzarote.png");
 }
-
 .hierro{
     background-image: url("../assets/El_Hierro.png");
 }
-
 .gomera{
     background-image: url("../assets/La_Gomera.png");
 }
-
 .palma{
     background-image: url("../assets/La_Palma.png");
 }
-
 .graciosa{
     background-image: url("../assets/la_graciosa.png");
 }
-
 .islas{
     background-image: url("../assets/islas-canarias.png");
 }
 
 
 @media screen and (min-width: 481px) and (max-width: 769px) {
-    .filter{
-        display: block;
+    #filter{
+        display: block !important;
     }
 
-    .filter article{
+    #filter article{
         width: 165PX;
     }
 
+    .categories{
+        width: 95%;
+        padding: 10px;
+    }
 
     .categories article{
         margin:20px;
@@ -210,19 +217,24 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-    .filter{
-        display: block;
+@media screen and (min-width: 350px)  and (max-width: 480px) {
+    #filter{
+        display: block !important;
     }
 
-    .filter article{
+    #filter article{
         width: 123PX;
     }
 
-    .filter article span{
+    #filter article span{
         display: unset;
         width: unset;
         margin-bottom: auto;
+    }
+
+    .categories{
+        padding: 10px 0;
+        width: 100%;
     }
 
     .categories article{
@@ -231,17 +243,75 @@
 
     .back{
         position: unset;
-        display: block;
+        display: flex;
     }
 
-    .category_info article{
+
+    .category_info article p{
+        width: calc(100% - 130px);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #filter{
+        display: block !important;
+    }
+
+    #filter article{
+        width: 123PX;
+    }
+
+    #filter article span{
+        display: unset;
+        width: unset;
+        margin-bottom: auto;
+    }
+
+    .categories{
+        padding: 10px 0;
         width: 100%;
     }
 
-    .category_info article a{
-        max-width: 106px;
+    .categories article{
+        margin:20px 0;
     }
+
+    .back{
+        position: unset;
+        display: flex;
+    }
+
     .category_info article p{
         width: calc(100% - 130px);
+        position: unset;
+    }
+    .category_info article img{
+        position: unset;
+    }
+    .card h5{
+        position: unset;
+        margin:10px auto;
+    }
+    .category_info article a{
+        position: unset;
+    }
+    .categories article{
+        width: 95%;
+        height: max-content;
+    }
+
+    .categories article p{
+        width: calc(100% - 130px);
+        position: unset;
+    }
+    .categories article img{
+        position: unset;
+    }
+
+    .categories article a{
+        position: unset;
+    }
+    .discover{
+        width: 100%;
     }
 }

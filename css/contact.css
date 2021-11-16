@@ -1,55 +1,21 @@
-*{
-    font-family: "Raleway", serif;
+
+.contactpanel{
+    background: #ffffff7a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #00000096 1px 2px 3px 1px;
+    margin-top: 5rem;
 }
 
-.contact{
-    position: absolute;
-    width: max-content;
-    height: max-content;
-    background: #ffffff7a;
-    border-radius: 20px;
-    min-height: 50vh;
-    min-width: 40vw;
-    padding: 20px;
-    max-width: 43vw;
-    box-shadow: #00000096 1px 2px 3px 1px;
-    margin-top: 50px;
-}
-.site_title{
-    position: relative;
-    display: block;
-    margin-top: 0;
-    margin-bottom: auto;
-    width: max-content;
-    height: max-content;
-    text-align: center;
-}
-.site_title h1{
-    font-size: 3.5em;
-    font-weight: bold;
-    color: var(--gray);
-}
-.site_title h1::before {
-    content: "";
-    border-top: 3px solid black;
-    width: 105%;
-    font-weight: bold;
-    color: var(--gray);
-    position: absolute;
-    bottom: -13px;
-    left: -2%;
-    right: 0;
-    margin: auto;
-}
-.contact p {
+.contactpanel p {
     color:black;
-    font-size: 1.7em;
+    font-size: 1.4em;
     margin: 0 25px;
     margin-top: 30px;
 }
 
-.contact ul{
-    font-size: 1.5em;
+.contactpanel ul{
+    font-size: 1.4em;
     margin-top: 35px;
     margin-left: auto;
     margin-right: AUTO;
@@ -58,56 +24,69 @@
     list-style-type: none;
     color: var(--gray);
     text-decoration: none;
+    padding: 0 !important;
 }
 
-.contact ul li a{
+.contactpanel ul li a{
     color: var(--gray);
     text-decoration: none;
 }
 
-.contact ul span{
+.contactpanel ul li a:hover{
+    color: var(--yellow);
+    text-shadow: white 1px 1px 3px;
+}
+.contactpanel ul span{
     margin-right: 12px;
     transform: scale(0.9);
     font-size: 0.9em;
 }
 
+h1.row.mt-3{
+    font-size: xxx-large;
+    font-weight: bold;
+    justify-content: center;
+    color: var(--gray);
+}
+
+.contact .panel-group{
+    max-width: 30rem;
+}
+
 @media screen and (min-width: 481px) and (max-width: 769px) {
-    .contact{
-        width: 80%;
-        max-width: none;
+    .contactpanel{
+        margin-top: 5rem;
+        padding: 20px;
     }
-
-    .site_title h1{
-        font-size: 3em;
-        margin-top: 20px;
-    }
-
-    .contact p {
+    .contactpanel p {
         font-size: 1.6em;
+        margin: 0 25px;
+        margin-top: 30px;
     }
 
-    .contact ul{
+    .contactpanel ul{
         font-size: 1.4em;
     }
-
+    h1.row.mt-3{
+        font-size: xxx-large;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .contact{
-        width: 95%;
-        max-width: none;
+    h1.row.mt-3{
+        font-size: xx-large;
+    }
+    .contactpanel{
+        margin-top: 3rem;
+        padding: 5px;
     }
 
-    .site_title h1{
-        font-size: 2em;
-        margin-top: 20px;
-    }
-
-    .contact p {
+    .contactpanel p {
         font-size: 1.5em;
+        margin: 5px;
     }
 
-    .contact ul{
+    .contactpanel ul{
         font-size: 1.3em;
     }
 

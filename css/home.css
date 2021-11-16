@@ -21,7 +21,6 @@
     font-weight: bold;
 }
 
-
 .homeart a:hover, a:focus, a:active{
     text-decoration: underline;
     background: #eab734 !important;
@@ -32,30 +31,12 @@
     box-shadow:  0 0 0.25rem rgb(236, 187, 67) !important;
 }
 
-.home{
-    display: flex!important;
-}
-
-
-@media screen and (min-width: 481px) and (max-width: 769px) {
-    .homeart{
-        width: 86vw !important;
-    }
-    .home{
-        display: flex!important;
-    }
-
-}
 
 @media screen and (max-width: 480px) {
     .homeart{
         width: 94vw !important;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .home{
-        display: block!important;
     }
 
 }
