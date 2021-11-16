@@ -230,6 +230,11 @@ footer section ul{
 }
 #content{
     min-height: 100vh;
+    display: block;
+}
+
+.content-internal{
+    min-height: 100vh;
 }
 
 @media screen and (min-width: 0em) and (max-width: 70em) {

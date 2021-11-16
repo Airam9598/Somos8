@@ -9,16 +9,13 @@
 
 
 
-form.rounded.mt-5{
+form.rounded.mt-3{
     padding:1.5em;
     background-color:var(--yellow);
     text-align: center;
     box-shadow: 2px 2px 5px black;
+    font-size: small;
 
-}
-
-.main_content{
-    font-size: xx-small;
 }
 
 
@@ -45,11 +42,12 @@ button.btn-primary:hover{
     background-color: #976f30;
 }
 
-h1.row.mt-3{
-    font-size: xxx-large;
+h1.row.mt-3 {
     font-weight: bold;
+    font-size: 3.5em;
     justify-content: center;
-
+    text-transform: uppercase;
+    color: var(--gray);
 }
 
 
@@ -92,6 +90,10 @@ p.text2{
         font-size: x-large;
     }
 
+    p{
+        font-size: small;
+    }
+
     h1.row.mt-3, p.text1, p.text2{
         display: none;
     }
@@ -120,7 +122,7 @@ p.text2{
 }
 
 
-@media (min-width: 701px) and (max-width: 1023px) {
+@media (min-width: 701px) and (max-width: 1199px) {
     section.suggestion{
         font-size: large;
     }
@@ -139,12 +141,6 @@ p.text2{
         font-size: 3.5em;
     }
 
-}
-
-@media (min-width: 1024px) and (max-width: 1199px) {
-    *{
-        font-size: small;
-    }
 }
 
 

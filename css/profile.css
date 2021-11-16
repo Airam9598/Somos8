@@ -1,26 +1,16 @@
 *{
     font-family: "Raleway", serif;
-    font-size: small;
 }
 
-a{
-    font-size: 1.2em;
-}
-
-.profile{
-    background: var(--yellow);
-    box-shadow: #00000096 1px 2px 3px 1px;
-}
 
 form{
     text-align: center;
     border-radius: 5px;
-    padding: 2em;
+    padding: 1.2em;
+    background: var(--yellow);
+    box-shadow: #00000096 1px 2px 3px 1px;
 }
 
-button.btn.btn-primary{
-    font-size: medium;
-}
 
 button.btn.btn-primary, label.input-group-text{
     box-shadow: 2px 2px 5px black;
@@ -44,20 +34,32 @@ input#img-change.form-control{
     color: var(--gray);
 }
 
-h5{
+h5.fw-boldel.mt-5{
     color: var(--gray);
     text-align: left;
+    font-size: xxx-large;
 }
 
 
-@media (max-width: 700px) {
+label.input-group-text, input.form-control{
+    font-size: x-small;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
     *{
-        font-size: x-small;
+        font-size: xx-small;
     }
 
-    .profile{
-        width: 90vw;
-        height: max-content;
+    a.btn.btn-primary.login_button{
+        font-size: large;
+    }
+
+    span.icon-user-circle-o::before{
+        font-size: small;
+    }
+
+    p{
+        font-size: small;
     }
 
     img.img-thumbnail.img-fluid{
@@ -69,6 +71,10 @@ h5{
 @media (min-width: 701px) and (max-width: 1023px) {
     *{
         font-size: large;
+    }
+
+    a.btn.btn-primary{
+        font-size: small;
     }
 }
 

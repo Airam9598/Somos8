@@ -26,44 +26,53 @@
 </header>
 <nav class ="nav"></nav>
 <div class="main_page">
-    <a class="login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
-    <div class="main_content vcenter hcenter">
-        <section class="register">
-            <div class="form-group">
-                <form class="rounded" action="" method="post">
-                    <h2 class="mb-4">REGÍSTRATE</h2>
-                    <p class="form-floating">
-                        <input type="text" class="form-control" id="name-register"
-                               placeholder= "Nombre de usuario*" required
-                               minlength="2" maxlength="29" size="31">
-                        <label for="name-register"><small>Nombre de usuario*</small></label>
-                    </p>
-                    <p class="form-floating">
-                        <input type="email" class="form-control" id="mail-register"
-                               placeholder="Correo electrónico*" required
-                               minlength="3" maxlength="29" size="31">
-                        <label for="mail-register"><small>Correo electrónico*</small></label>
-                    </p>
-                    <p class="form-floating">
-                        <input type="password" class="form-control" id="password-register"
-                               placeholder="Contraseña*" required
-                               minlength="6" maxlength="15" size="31">
-                        <label for="password-register"><small>Contraseña*</small></label>
-                    </p>
-                    <p class="form-floating">
-                        <input type="password" class="form-control" id="password-confirm"
-                               placeholder="Confirmar contraseña*" required
-                               minlength="6" maxlength="15" size="31">
-                        <label for="password-confirm"><small>Confirmar contraseña*</small></label>
-                    </p>
-                    <p>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </p>
-                </form>
-            </div>
+    <div id="content" class="container-fluid wrapper">
+        <section class="row content-internal">
+            <article class="col-md-12 wrapper align-items-start login-box">
+                <a class="btn btn-primary login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
+            </article>
+            <article class="col-md-12 align-items-center wrapper justify-content-center ">
+            <section class="register">
+                <div class="form-group">
+                    <form class="rounded mt-5" action="" method="post">
+                        <h2 class="mb-4">REGÍSTRATE</h2>
+                        <p class="form-floating">
+                            <input type="text" class="form-control" id="name-register"
+                                   placeholder= "Nombre de usuario*" required
+                                   minlength="2" maxlength="29" size="31">
+                            <label for="name-register"><small>Nombre de usuario*</small></label>
+                        </p>
+                        <p class="form-floating">
+                            <input type="email" class="form-control" id="mail-register"
+                                   placeholder="Correo electrónico*" required
+                                   minlength="3" maxlength="29" size="31">
+                            <label for="mail-register"><small>Correo electrónico*</small></label>
+                        </p>
+                        <p class="form-floating">
+                            <input type="password" class="form-control" id="password-register"
+                                   placeholder="Contraseña*" required
+                                   minlength="6" maxlength="15" size="31">
+                            <label for="password-register"><small>Contraseña*</small></label>
+                        </p>
+                        <p class="form-floating">
+                            <input type="password" class="form-control" id="password-confirm"
+                                   placeholder="Confirmar contraseña*" required
+                                   minlength="6" maxlength="15" size="31">
+                            <label for="password-confirm"><small>Confirmar contraseña*</small></label>
+                        </p>
+                        <p>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+            </section>
+            </article>
+            <article class="col-md-12 align-items-end wrapper justify-contents-bottom px-0">
+                <footer class="row mx-0"></footer>
+            </article>
         </section>
     </div>
-    <footer></footer>
-    </div>
+</div>
+
 </body>
 </html>

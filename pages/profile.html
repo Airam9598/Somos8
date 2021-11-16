@@ -26,55 +26,61 @@
 <header>
 </header>
 <nav class ="nav"></nav>
-
 <div class="main_page">
-    <a class="login_button" href=""><p>apodoUsuario</p><span class="icon-user-circle-o"></span></a>
-    <div class="main_content vcenter hcenter">
-        <section class="profile">
-            <div class="form-group">
-                <form class="rounded" method="post">
-                    <div class="change_imagen">
-                        <p>
-                            <img src="../assets/profile.png" class="img-thumbnail img-fluid" width="180em" alt="...">
-                        </p>
-                        <p class="input-group mb-5">
-                            <input type="file" class="form-control" id="img-change">
-                            <label class="input-group-text" for="img-change">Subir imagen</label>
+    <div id="content" class="container-fluid wrapper">
+        <section class="row content-internal">
+            <article class="col-md-12 wrapper align-items-start login-box">
+                <a class="btn btn-primary login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
+            </article>
+            <article class="col-md-12 align-items-center wrapper justify-content-center ">
+                <section class="profile">
+                    <div class="form-group">
+                        <form class="rounded mt-6" method="post">
+                            <div class="change_imagen">
+                                <p>
+                                    <img src="../assets/profile.png" class="img-thumbnail img-fluid" width="180em" alt="...">
+                                </p>
+                                <p class="input-group mb-5">
+                                    <input type="file" class="form-control" id="img-change">
+                                    <label class="input-group-text" for="img-change">Subir imagen</label>
 
-                        </p>
+                                </p>
+                            </div>
+
+                            <p class="input-group mt-3 mb-3">
+                                <label class="input-group-text" for="name-user" >Nombre de usuario</label>
+                                <input name="name-user" id="name-user" type="text" required class="form-control" placeholder="user01" readonly>
+                            </p>
+                            <p class="input-group mb-3">
+                                <label class="input-group-text" for="email-profile">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email-profile" value="user01@gmail.com" size="31" readonly>
+                            </p>
+                            <p>
+                                <h5 class="fw-bolder mt-5">Cambio de contraseña</h5>
+                            </p>
+                            <p class="input-group mb-3">
+                                <label class="input-group-text" for="current-password">Contraseña actual</label>
+                                <input class="form-control" type="password" id="current-password" placeholder="nueva contraseña" minlength="6"
+                                       maxlength="15" size="31">
+                            </p>
+                            <p class="input-group mb-3">
+                                <label class="input-group-text" for="new-password">Nueva contraseña</label>
+                                <input class="form-control" type="password" id="new-password" placeholder="nueva contraseña" minlength="6"
+                                       maxlength="15" size="31">
+                            </p>
+                            <p>
+                                <button type="submit" class="btn btn-primary">Actualizar</button>
+                            </p>
+                        </form>
                     </div>
-
-                    <p class="input-group mt-3 mb-3">
-                        <label class="input-group-text" for="name-user" >Nombre de usuario</label>
-                        <input name="name-user" id="name-user" type="text" required class="form-control" placeholder="user01" readonly>
-                    </p>
-                    <p class="input-group mb-3">
-                        <label class="input-group-text" for="email-profile">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email-profile" value="user01@gmail.com" size="31" readonly>
-                    </p>
-                    <p>
-                        <h5 class="fw-bolder mt-5">Cambio de contraseña</h5>
-                    </p>
-                    <p class="input-group mb-3">
-                        <label class="input-group-text" for="current-password">Contraseña actual</label>
-                        <input class="form-control" type="password" id="current-password" placeholder="nueva contraseña" minlength="6"
-                               maxlength="15" size="31">
-                    </p>
-                    <p class="input-group mb-3">
-                        <label class="input-group-text" for="new-password">Nueva contraseña</label>
-                        <input class="form-control" type="password" id="new-password" placeholder="nueva contraseña" minlength="6"
-                               maxlength="15" size="31">
-                    </p>
-                    <p>
-                        <button type="submit" class="btn btn-primary">Actualizar</button>
-                    </p>
-                </form>
-            </div>
+                </section>
+            </article>
+            <article class="col-md-12 align-items-end wrapper justify-contents-bottom px-0">
+                <footer class="row mx-0"></footer>
+            </article>
         </section>
-
-
     </div>
-    <footer class="mt-4"></footer>
 </div>
+
 </body>
 </html>

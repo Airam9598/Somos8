@@ -2,10 +2,6 @@
     font-family: "Fontello", "Raleway", serif;
 }
 
-.login{
-    background: var(--yellow);
-    box-shadow: #00000096 1px 2px 3px 1px;
-}
 
 form{
     padding:2em;
@@ -38,3 +34,17 @@ a.text-muted:hover{
     cursor: pointer;
 }
 
+h2.mb-4{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+@media (max-width:400px) {
+    *{
+        font-size: small;
+    }
+
+    h2.mb-4{
+        font-size: x-large;
+    }
+}
