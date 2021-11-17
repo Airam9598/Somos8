@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1636884290854" duration="14579000" />
       <workItem from="1636909096678" duration="20546000" />
       <workItem from="1637101092741" duration="119000" />
-      <workItem from="1637137044301" duration="9336000" />
+      <workItem from="1637137044301" duration="10341000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637146568004</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Modificaciones varias.">
+      <created>1637148736882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637148736882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
