@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../js/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/suggestions_validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/discover_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/discover_info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/forum_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/forum_info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suggestion.html" beforeDir="false" afterPath="$PROJECT_DIR$/suggestion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +93,7 @@
       <workItem from="1636884290854" duration="14579000" />
       <workItem from="1636909096678" duration="20546000" />
       <workItem from="1637101092741" duration="119000" />
-      <workItem from="1637137044301" duration="6968000" />
+      <workItem from="1637137044301" duration="9336000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -153,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637085016063</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modificaciones varias.">
+      <created>1637146568004</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637146568004</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,11 +159,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadi las sugerencias (falta mejorar)" />
-    <MESSAGE value="Modificaciones varias." />
     <MESSAGE value="Modificaciones en el foro." />
     <MESSAGE value="Boostrap hecho de: login, profile, register y suggestion" />
     <MESSAGE value="Boostrap hecho de: forum." />
     <MESSAGE value="Imagen añadida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imagen añadida" />
+    <MESSAGE value="Modificaciones varias." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones varias." />
   </component>
 </project>
