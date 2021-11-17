@@ -21,7 +21,7 @@
     font-weight: bold;
 }
 
-.homeart a:hover, a:focus, a:active{
+.homeart a:hover,.homeart a:focus,.homeart a:active{
     text-decoration: underline;
     background: #eab734 !important;
     border-color: #eab734 !important ;
