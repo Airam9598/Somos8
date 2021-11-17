@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover_information.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover_information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum_info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1636884290854" duration="14579000" />
       <workItem from="1636909096678" duration="20546000" />
       <workItem from="1637101092741" duration="119000" />
-      <workItem from="1637137044301" duration="10623000" />
+      <workItem from="1637137044301" duration="11286000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637150004346</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Añadí enlaces a las entradas del foro.">
+      <created>1637150341193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637150341193</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +184,7 @@
     <MESSAGE value="Boostrap hecho de: forum." />
     <MESSAGE value="Imagen añadida" />
     <MESSAGE value="Modificaciones varias." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones varias." />
+    <MESSAGE value="Añadí enlaces a las entradas del foro." />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadí enlaces a las entradas del foro." />
   </component>
 </project>
