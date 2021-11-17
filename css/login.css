@@ -39,6 +39,14 @@ h2.mb-4{
     font-weight: bold;
 }
 
+div.register-text{
+    background-color: #ffffff7a;
+    color: black;
+    font-size: medium;
+    border-radius: 0.3em;
+}
+
+
 @media (max-width:400px) {
     *{
         font-size: small;

@@ -3,13 +3,13 @@
 }
 .forum_info{
     width: 95%;
-    min-height: calc(100vh - 186px);
     height: max-content;
     background: #ffffff80;
     border-radius: 10px;
     box-shadow: #00000063 1px 1px 2px 0;
     position: relative;
     padding: 10px;
+    margin-top: 20px;
 }
 
 .title{
@@ -19,16 +19,6 @@
     color: black;
     margin: auto;
     margin-top:30px;
-}
-
-
-.like{
-    position: absolute;
-    width: max-content;
-    top: 10px  ;
-    right: 10px;
-    padding: 10px;
-    color: white;
 }
 
 .forum_info img{
@@ -114,6 +104,11 @@
     margin-right: 10px;
 }
 
+.back:hover{
+    background: var(--darkyellow);
+    color: white;
+}
+
 .coment_title{
     display: block;
     width: 90%;
@@ -145,6 +140,7 @@
     text-decoration: underline;
     color: #1e8eef;
     margin-bottom: 20px;
+
 }
 .coments article{
     width: 95%;
@@ -155,6 +151,7 @@
     border-radius: 10px;
     clear: both;
     position: relative;
+
 }
 
 .answer{
@@ -166,6 +163,18 @@
 .a{
     color: #1A5B97;
     text-shadow: 0.5px 0.5px black;
+}
+
+.coments .addbutton{
+    float: right;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #1e8eef;
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
 }
 
 
@@ -227,6 +236,10 @@
         font-size: 1em;
     }
 
+}
+
+.modal-backdrop{
+    background-color: #0009!important;
 }
 
 @media screen and (max-width: 480px) {

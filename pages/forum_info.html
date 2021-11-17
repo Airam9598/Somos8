@@ -1,90 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Somos8</title>
-    <meta name="application-name" content="Somos8">
-    <meta name="author” content=”Kiowa_and_Airam">
-    <meta name="description" content="Prácticas_DAW1">
-    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-    <link rel="stylesheet" href=../css/skeleton.css>
-    <link rel="stylesheet" href=../css/fontello-embedded.css>
-    <link rel="stylesheet" href=../css/forum_info.css>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script>
-        $(function() {
-            $('footer').load("./footer.html");
-            $('.nav').load("./menu.html");
-        });
-    </script>
-</head>
-<body>
-<header>
-</header>
-<nav class ="nav"></nav>
+    <head>
+        <meta charset="UTF-8">
+        <title>Somos8</title>
+        <meta name="application-name" content="Somos8">
+        <meta name="author” content=”Kiowa_and_Airam">
+        <meta name="description" content="Prácticas_DAW1">
+        <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+        <link rel="stylesheet" href=../css/skeleton.css>
+        <link rel="stylesheet" href=../css/fontello-embedded.css>
+        <link rel="stylesheet" href=../css/forum_info.css>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script>
+            $(function() {
+                $('footer').load("./footer.html");
+                $('.nav').load("./menu.html");
+            });
+        </script>
+    </head>
+    <body>
+    <header></header>
+    <nav class ="nav"></nav>
+        <div class="main_page">
+            <div class="container-fluid min-vh-100 d-block">
+                <section class="row min-vh-100">
+                    <article class="col-md-12 d-flex align-items-start justify-content-end">
+                        <a class="btn btn-primary login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
+                    </article>
+                    <article class="col-md-12 align-items-center d-flex justify-content-center ">
+                        <div  class="forum_info">
+                            <a href="forum.html" class="back"><span class="icon-left-circled"></span>Volver</a>
+                            <p class="title">Excursión al Roque Nublo</p>
+                            <img src="../assets/roquenublo.jpg">
+                            <div class="exc-info">
+                                <p class="date">Lugar: Roque Nublo</p>
+                                <p class="date">Fecha: 25/11/2021</p>
+                                <p class="date">Hora: 08:10</p>
+                                <p class="date">Material Necesario: Agua y comida.</p>
+                                <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis enim ut tellus elementum. Proin nibh nisl condimentum id venenatis a. Adipiscing elit duis tristique sollicitudin nibh. Elit duis tristique sollicitudin
+                                                        nibh sit amet commodo nulla facilisi. Quis risus sed vulputate odio ut enim blandit volutpat. </p>
 
-<div class="main_page">
-    <a class="login_button" href="login.html"><p>Iniciar Sesión</p><span class="icon-user-circle-o"></span></a>
-    <div class="main_content vcenter hcenter">
-        <div  class="forum_info">
-            <a href="forum.html" class="back"><span class="icon-left-circled"></span>Volver</a>
-            <span class="like"></span>
-            <p class="title">Excursión al Roque Nublo</p>
-            <img src="../assets/roquenublo.jpg">
-            <div class="exc-info">
-                <p class="date">Lugar: Roque Nublo</p>
-                <p class="date">Fecha: 25/11/2021</p>
-                <p class="date">Hora: 08:10</p>
-                <p class="date">Material Necesario: Agua y comida.</p>
-                <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis enim ut tellus elementum. Proin nibh nisl condimentum id venenatis a. Adipiscing elit duis tristique sollicitudin nibh. Elit duis tristique sollicitudin
-                                        nibh sit amet commodo nulla facilisi. Quis risus sed vulputate odio ut enim blandit volutpat. </p>
+                                <form class="assistant">
+                                    <div class="assistant_text">¿Asistirá al evento?</div>
+                                    <input type="radio" name="my-input" id="yes">
+                                    <label for="yes">Sí</label>
+                                    <input type="radio" name="my-input" id="no">
+                                    <label for="no">No</label>
+                                    <a href="" class="save_button" >Guardar</a>
+                                </form>
 
-                <form class="assistant">
-                    <div class="assistant_text">¿Asistirá al evento?</div>
-                    <input type="radio" name="my-input" id="yes">
-                    <label for="yes">Sí</label>
-                    <input type="radio" name="my-input" id="no">
-                    <label for="no">No</label>
-                    <a href="" class="save_button" >Guardar</a>
-                </form>
+                            </div>
 
+                            <p class="coment_title">Comentarios</p>
+                            <section class="coments">
+
+                                <div class="modal" id="addcoment-forum" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog cascading-modal modal-sm" role="document">
+                                        <div class="modal-content" style="background: var(--yellow)">
+                                            <div class="modal-header" style="justify-content: center;border: none;flex-wrap: wrap">
+                                                <img src="../assets/profile.png" alt="avatar" class="rounded-square img-responsive mt-0" style="width: 43%" >
+                                                <h5 class="mt-1 mb-2 w-100 text-center d-block" >User Test 1</h5>
+                                            </div>
+                                            <div class="modal-body text-center mb-1">
+
+                                                <div class="md-form ml-0 mr-0">
+                                                    <label for="coment">Comentario:</label>
+                                                    <textarea rows="4" style="width: 100%;padding: 5px"  id="coment" class="ml-0"></textarea>
+                                                </div>
+
+                                                <div class="text-center mt-4">
+                                                    <button class="btn btn-cyan mt-1">Comentar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="addbutton" data-toggle="modal" data-target="#addcoment-forum">Añadir comentario</button>
+                                <article>
+                                    <img src="../assets/profile.png">
+                                    <div class="comment">
+                                        <p class="username"> Usuario test 1</p>
+                                        <p> Ya he ido otras veces, pero quiero repetir, así que voy!</p>
+                                    </div>
+                                    <p class="answer"><a href="">Responder</a></p>
+                                </article>
+
+                                <article>
+                                    <img src="../assets/profile.png">
+                                    <div class="comment">
+                                        <p class="username"> Usuario test 1</p>
+                                        <p> Yo no puedo, otra vez será :(</p>
+                                    </div>
+                                    <p class="answer"><a href="">Responder</a></p>
+                                </article>
+                            </section>
+                        </div>
+                    </article>
+                    <article class="col-md-12 align-items-end d-flex justify-contents-bottom px-0">
+                        <footer class="row mx-0 text-white mt-3 w-100 pt-2"></footer>
+                    </article>
+                </section>
             </div>
-
-            <p class="coment_title">Comentarios</p>
-            <section class="coments">
-                <a href="">Añadir comentario</a>
-                <article>
-                    <img src="../assets/profile.png">
-                    <div class="comment">
-                        <p class="username"> Usuario test 1</p>
-                        <p> Yo me apunto.</p>
-                    </div>
-                    <p class="answer"><a href="">Responder</a></p>
-
-                </article>
-                <article>
-                    <img src="../assets/profile.png">
-                    <div class="comment">
-                        <p class="username"> Usuario test 1</p>
-                        <p> Ya he ido otras veces, pero quiero repetir, así que voy!</p>
-                    </div>
-                    <p class="answer"><a href="">Responder</a></p>
-                </article>
-                <article>
-                    <img src="../assets/profile.png">
-                    <div class="comment">
-                        <p class="username"> Usuario test 1</p>
-                        <p> Yo no puedo, otra vez será :(</p>
-                    </div>
-                    <p class="answer"><a href="">Responder</a></p>
-                </article>
-            </section>
         </div>
-    </div>
-    <footer></footer>
-</div>
-
-</body>
+    </body>
 </html>

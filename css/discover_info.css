@@ -72,7 +72,7 @@
 }
 
 .back:hover{
-    background: var(--darkyellow);;
+    background: var(--darkyellow);
     color: white;
 }
 
