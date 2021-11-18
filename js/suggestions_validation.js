@@ -1,40 +1,42 @@
+const form = document.getElementById('suggestions');
+const inputs = document.querySelectorAll('#suggestions input');
+const pattern = {
+    name: /^[a-zA-ZÀ-ÿ\s]{4,29}$/,
+    email: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$/
+}
 
-$(function() {
+const validateForm = (e) => {
+    switch (e.target.name) {
+        case "name":
+            validateField(pattern.name, e.target, 'name');
+        break;
+        case "mail":
+            validateField(pattern.email, e.target, 'mail-suggestion');
+        break;
+        case "text":
+
+        break;
+    }
+}
+
+const validateField = (pattern, input, field) => {
+    if(pattern.test(input.value)){
+        document.getElementById(field).classList.remove('is-invalid');
+        document.getElementById(field).classList.add('is-valid');
+    } else{
+        document.getElementById(field).classList.remove('is-valid');
+        document.getElementById(field).classList.add('is-invalid');
+    }
+}
 
 
-    $("form[name='suggestion-form']").validate({
-        rules: {
-            name: "required",
+inputs.forEach((input) =>{
+    input.addEventListener('keyup', validateForm);
+    input.addEventListener('blur', validateForm);
+});
 
-            email: {
-
-                required: true,
-
-                email: true
-
-            },
-
-            propose: "required",
-
-        },
-
-        messages: {
-
-            name: "Por favor, introduzca un nombre de usuario válido",
-
-            email: "Por favor, introduzca una dirección de correo electrónico válida",
-
-
-            propose: "Por favor, añada una propuesta válida"
-
-        },
-
-        submitHandler: function(form) {
-
-            form.submit();
-
-        }
-
-    });
+form.addEventListener('submit', (e) =>{
 
 });
+
+

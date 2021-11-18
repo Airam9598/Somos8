@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
+    <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="Añadí enlaces a las entradas del foro.">
+      <change beforePath="$PROJECT_DIR$/../css/suggestion.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/suggestion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/suggestions_validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/suggestions_validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2021_11_16_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2021_11_16__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover_information.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover_information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suggestion.html" beforeDir="false" afterPath="$PROJECT_DIR$/suggestion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +96,7 @@
       <workItem from="1636909096678" duration="20546000" />
       <workItem from="1637101092741" duration="119000" />
       <workItem from="1637137044301" duration="11286000" />
+      <workItem from="1637225242016" duration="24316000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>

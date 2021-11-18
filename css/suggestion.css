@@ -81,6 +81,26 @@ p.text2{
     border-radius: 6px;
 }
 
+
+/*********FORM VALIDATION**********/
+.form-control:focus {
+    box-shadow: none!important;
+}
+
+
+/*********** VALID *****************/
+form input[type="email"]:required:valid, form input[type="text"]:required:valid, form textarea:required:valid{
+    border:2px solid green;
+    outline: none;
+}
+
+/******* ERROR **********/
+form input[type="email"]:focus:required:invalid, form input[type="text"]:focus:required:invalid, form textarea:focus:required:invalid{
+    border:2px solid red;
+    outline: none;
+}
+
+
 @media (max-width: 700px) {
     *{
         font-size: x-small;
