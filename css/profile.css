@@ -11,6 +11,14 @@ form{
     box-shadow: #00000096 1px 2px 3px 1px;
 }
 
+#error{
+    max-width: 19rem;
+    color: red;
+    display: none;
+    text-shadow: #ffffffc4 0px 0px 29px;
+    margin: auto;
+    margin-bottom: 20px;
+}
 
 button.btn.btn-primary, label.input-group-text{
     box-shadow: 2px 2px 5px black;
