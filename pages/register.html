@@ -35,33 +35,34 @@
                 <article class="col-xs-12 col-sm-12 col-md-12 d-flex justify-content-center">
                     <section class="register">
                         <div class="form-group">
-                            <form class="rounded mt-5" action="" method="post">
+                            <form class="rounded mt-5" action="" id="registers" method="post">
                                 <h2 class="mb-4">REGÍSTRATE</h2>
                                 <p class="form-floating">
-                                    <input type="text" class="form-control" id="name-register"
-                                           placeholder= "Nombre de usuario*" required
+                                    <input type="text" class="form-control" name="name" id="name-register"
+                                           placeholder= "Nombre de usuario*" required pattern="^[a-zA-ZÀ-ÿ\s]{2,29}$"
                                            minlength="2" maxlength="29" size="31">
                                     <label for="name-register"><small>Nombre de usuario*</small></label>
                                 </p>
                                 <p class="form-floating">
-                                    <input type="email" class="form-control" id="mail-register"
+                                    <input type="email" class="form-control" name="mail" id="mail-register"
                                            placeholder="Correo electrónico*" required
                                            minlength="5" maxlength="29" size="31">
                                     <label for="mail-register"><small>Correo electrónico*</small></label>
                                 </p>
                                 <p class="form-floating">
-                                    <input type="password" class="form-control" id="password-register"
-                                           placeholder="Contraseña*" required
+                                    <input type="password" class="form-control" name="psw" id="password-register"
+                                           placeholder="Contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="password-register"><small>Contraseña*</small></label>
                                 </p>
                                 <p class="form-floating">
-                                    <input type="password" class="form-control" id="password-confirm"
-                                           placeholder="Confirmar contraseña*" required
+                                    <input type="password" class="form-control" name="psw2" id="password-confirm"
+                                           placeholder="Confirmar contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="password-confirm"><small>Confirmar contraseña*</small></label>
                                 </p>
-
+                                <p id="error">La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 8 carácteres</p>
+                                <p id="error2">Las contraseñas no coinciden</p>
                                 <div class="form-check mb-3">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                     <label class="form-check-label" for="invalidCheck">
@@ -86,4 +87,5 @@
         </div>
     </div>
     </body>
+    <script src="../js/register_validation.js"></script>
 </html>

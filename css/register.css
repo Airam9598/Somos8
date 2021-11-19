@@ -11,6 +11,19 @@ form{
     box-shadow: 2px 2px 5px black;
 }
 
+#error{
+    max-width: 19rem;
+    color: red;
+    display: none;
+    text-shadow: #ffffffc4 0px 0px 29px;
+}
+
+#error2{
+    max-width: 19rem;
+    color: red;
+    display: none;
+    text-shadow: #ffffffc4 0px 0px 29px;
+}
 
 button.btn-primary{
     box-shadow: 2px 2px 5px black;

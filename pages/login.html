@@ -35,21 +35,23 @@
                     <article class="col-xs-12 col-sm-12 col-md-12 d-flex justify-content-center">
                     <section class="login">
                         <div class="form-group">
-                            <form class="rounded mt-4" action="" method="post">
+                            <form class="rounded mt-4" id="logins" action="" method="post">
                                 <h2 class="mb-4">INICIA SESIÓN</h2>
                                 <p class="form-floating">
-                                    <input type="email" class="form-control" id="email-login"
-                                           placeholder="Correo electrónico*" required minlength="3"
+                                    <input type="email" class="form-control" name="mail" id="email-login"
+                                           placeholder="Correo electrónico*" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$" minlength="3"
                                            maxlength="29" size="33">
                                     <label for="email-login"><small>Correo electrónico*</small></label>
                                 </p>
 
                                 <p class="form-floating">
-                                    <input type="password" class="form-control" id="password-login"
-                                           placeholder="Contraseña*" required
-                                           minlength="6" maxlength="15" size="33">
+                                    <input type="password" class="form-control" name="psw" id="password-login"
+                                           placeholder="Contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}"
+                                           minlength="8" maxlength="15" size="33">
                                     <label for="password-login"><small>Contraseña*</small></label>
                                 </p>
+
+                                <p id="error">La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 8 carácteres</p>
                                 <p>
                                     <div class="register-text"><a class="text-muted" href="register.html">Regístrate</a> <small>si aún no tienes cuenta.</small></div>
                                 </p>
@@ -70,4 +72,5 @@
             </div>
         </div>
     </body>
+    <script src="../js/login_validation.js"></script>
 </html>
