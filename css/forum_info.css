@@ -71,7 +71,7 @@
 }
 
 .exc-info {
-    margin-bottom: 0em;
+    margin-bottom: 0;
     width: 46vw;
     float: right;
     margin-top: 35px;
@@ -94,19 +94,29 @@
     left: 10px;
     background: var(--gray);
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px;
     color: white;
     text-decoration: none;
     border:var(--yellow) 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .back span{
     margin-right: 10px;
+    background-image: url("../assets/arrow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
 .back:hover{
     background: var(--darkyellow);
     color: white;
+    cursor: pointer;
 }
 
 .coment_title{
@@ -122,7 +132,6 @@
 .coments{
     width: 95%;
     height: max-content;
-    min-height: 30vh;
     max-height: 60vh;
     overflow-y: auto;
     background: white;

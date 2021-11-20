@@ -74,6 +74,7 @@
 .back:hover{
     background: var(--darkyellow);
     color: white;
+    cursor: pointer;
 }
 
 .back span{
@@ -99,7 +100,6 @@
 .coments{
     width: 95%;
     height: max-content;
-    min-height: 30vh;
     max-height: 60vh;
     overflow-y: auto;
     background: white;
