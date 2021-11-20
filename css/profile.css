@@ -13,11 +13,13 @@ form{
 
 #error{
     max-width: 19rem;
-    color: red;
+    color: black;
+    font-weight: bold;
     display: none;
     text-shadow: #ffffffc4 0px 0px 29px;
     margin: auto;
     margin-bottom: 20px;
+    font-size: small;
 }
 
 button.btn.btn-primary, label.input-group-text{

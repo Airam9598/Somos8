@@ -100,6 +100,12 @@ form input[type="email"]:focus:required:invalid, form input[type="text"]:focus:r
     outline: none;
 }
 
+#name-error, #mail-error, #suggestion-error{
+    color: black;
+    display: none;
+    text-shadow: #ffffffc4 0px 0px 29px;
+}
+
 
 @media (max-width: 700px) {
     *{

@@ -21,14 +21,20 @@ $(document).ready(function() {
         if (pattern.test(input.value)) {
             document.getElementById(field).classList.remove('is-invalid');
             document.getElementById(field).classList.add('is-valid');
-            if (field == "password-login") {
-                document.getElementById('error').style.display = "none";
+            document.getElementById(field).classList.remove('text-danger');
+            document.getElementById(field).classList.add('text-success');
+            if (field == "email-login") {
+                document.getElementById('maillogin-error').innerHTML = "";
             }
+
         } else {
             document.getElementById(field).classList.remove('is-valid');
             document.getElementById(field).classList.add('is-invalid');
-            if (field == "password-login") {
-                document.getElementById('error').style.display = "block";
+            document.getElementById(field).classList.remove('text-success');
+            document.getElementById(field).classList.add('text-danger');
+            if (field == "email-login") {
+                document.getElementById('maillogin-error').innerHTML = "La dirección de correo no es válida. Ej: example@ulpgc.es";
+                document.getElementById('maillogin-error').style.display = "block";
             }
         }
     }

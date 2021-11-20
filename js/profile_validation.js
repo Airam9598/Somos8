@@ -26,14 +26,22 @@ $(document).ready(function() {
                     if (document.getElementById('current-password').value == document.getElementById('new-password').value) {
                         document.getElementById(field).classList.remove('is-valid');
                         document.getElementById(field).classList.add('is-invalid');
+                        document.getElementById(field).classList.add('text-danger');
+                        document.getElementById(field).classList.remove('text-success');
                         document.getElementById('error').innerHTML = "Las contraseñas no pueden coincidir";
                         document.getElementById('error').style.display = "block";
+                    } else{
+                        document.getElementById('error').innerHTML = "";
                     }
+                } else {
+                    document.getElementById('error').innerHTML = "";
                 }
             }
         } else {
             document.getElementById(field).classList.remove('is-valid');
             document.getElementById(field).classList.add('is-invalid');
+            document.getElementById(field).classList.add('text-danger');
+            document.getElementById(field).classList.remove('text-success');
             if (field == "current-password" || field == "new-password") {
                 document.getElementById('error').innerHTML = "La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres";
                 document.getElementById('error').style.display = "block";

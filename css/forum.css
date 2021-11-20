@@ -96,7 +96,6 @@ form.add_form{
 .add_date{
     border-radius: 0.3em;
     border:0;
-    padding: 4px;
     box-shadow: 1px 1px 1px black;
     text-align: left;
 
@@ -113,7 +112,7 @@ textarea.add_date{
     outline: none;
     border:0;
     background-color: var(--yellow);
-    color: var(--gray);
+    color: black;
 }
 
 .button-forum:hover{
@@ -140,6 +139,33 @@ label.input-group-text:hover{
     cursor: pointer;
 }
 
+/*********FORM VALIDATION**********/
+.form-control:focus {
+    box-shadow: none!important;
+}
+
+
+/*********** VALID *****************/
+form input[type="date"]:required:valid, form input[type="time"]:required:valid,
+form input[type="text"]:required:valid, form textarea:required:valid{
+    border:2px solid green;
+    outline: none;
+}
+
+/******* ERROR **********/
+form input[type="date"]:focus:required:invalid, form input[type="text"]:focus:required:invalid,
+form input[type="time"]:focus:required:invalid, form textarea:focus:required:invalid{
+    border:2px solid red;
+    outline: none;
+}
+
+#place-error, #description-error, #material-error, #date-error, #time-error{
+    font-size: small;
+    color: black;
+    display: none;
+    text-shadow: #ffffffc4 0px 0px 29px;
+    font-weight: bold;
+}
 
 
 @media (max-width: 360px) {
@@ -166,6 +192,10 @@ label.input-group-text:hover{
     button.col-2{
         width: 21.666667%
     }
+
+    #place-error, #description-error, #material-error, #date-error, #time-error{
+        font-size: xx-small;
+    }
 }
 
 @media (min-width: 361px) and (max-width: 700px){
@@ -175,6 +205,10 @@ label.input-group-text:hover{
 
     img.img-thumbnail.img-fluid{
         display: none;
+    }
+
+    #place-error, #description-error, #material-error, #date-error, #time-error{
+        font-size: x-small;
     }
 
     label#image-change.form-control, label.input-group-text, p.input-group-text{

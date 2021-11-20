@@ -10,12 +10,26 @@ form{
     box-shadow: 2px 2px 5px black;
 }
 
-#error{
-    max-width: 19rem;
-    color: red;
+/*********** VALID *****************/
+form input[type="email"]:required:valid, form input[type="password"]:required:valid{
+    border:2px solid green;
+    outline: none;
+}
+
+/******* ERROR **********/
+form input[type="email"]:focus:required:invalid, form input[type="password"]:focus:required:invalid{
+    border:2px solid red;
+    outline: none;
+}
+
+#maillogin-error{
+    font-size: small;
+    font-weight: bold;
+    color: black;
     display: none;
     text-shadow: #ffffffc4 0px 0px 29px;
 }
+
 button.btn-primary{
     box-shadow: 2px 2px 5px black;
     border:0;
