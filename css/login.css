@@ -22,7 +22,7 @@ form input[type="email"]:focus:required:invalid, form input[type="password"]:foc
     outline: none;
 }
 
-#maillogin-error{
+#maillogin-error, #psw-error{
     font-size: small;
     font-weight: bold;
     color: black;

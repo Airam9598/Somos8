@@ -25,6 +25,8 @@ $(document).ready(function() {
             document.getElementById(field).classList.add('text-success');
             if (field == "email-login") {
                 document.getElementById('maillogin-error').innerHTML = "";
+            } else if (field == "password-login"){
+                document.getElementById('psw-error').innerHTML = "";
             }
 
         } else {
@@ -35,6 +37,9 @@ $(document).ready(function() {
             if (field == "email-login") {
                 document.getElementById('maillogin-error').innerHTML = "La dirección de correo no es válida. Ej: example@ulpgc.es";
                 document.getElementById('maillogin-error').style.display = "block";
+            } else if(field == "password-login"){
+                document.getElementById('psw-error').innerHTML = "El formato de la contraseña es inválido.";
+                document.getElementById('psw-error').style.display = "block";
             }
         }
     }
