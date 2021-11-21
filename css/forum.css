@@ -47,33 +47,6 @@ td {
 }
 
 
-/**********PAGINATION******/
-a.page-link{
-    color: var(--gray);
-}
-
-li.page-item.active .page-link{
-    background-color: var(--gray);
-    border-color: white;
-}
-
-    /**BUTTON SEARCH*/
-
-
-.btn:hover {
-    color: #fff
-}
-
-.input-text:focus {
-    box-shadow: 0px 0px 0px;
-    border-color: #f8c146;
-    outline: 0px
-}
-
-.form-control {
-    border: 1px solid #f8c146
-}
-
 /*****TABLE****/
 table{
     font-weight: bold;
@@ -148,14 +121,12 @@ label.input-group-text:hover{
 /*********** VALID *****************/
 form input[type="date"]:required:valid, form input[type="time"]:required:valid,
 form input[type="text"]:required:valid, form textarea:required:valid{
-    border:2px solid green;
     outline: none;
 }
 
 /******* ERROR **********/
 form input[type="date"]:focus:required:invalid, form input[type="text"]:focus:required:invalid,
 form input[type="time"]:focus:required:invalid, form textarea:focus:required:invalid{
-    border:2px solid red;
     outline: none;
 }
 
