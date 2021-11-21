@@ -1,0 +1,119 @@
+{
+  "main":[
+    {
+      "img": "../assets/c_restaurantes.png",
+      "title": "Restaurantes",
+      "url": "discover_categories.html?restaurant&island=Todas"
+    },
+
+    {
+      "img": "../assets/c_fiestas.png",
+      "title": "Fiestas Populares",
+      "url": "discover_categories.html?party&island=Todas"
+    },
+    {
+      "img": "../assets/c_lugares.png",
+      "title": "Visitas Interesantes",
+      "url": "discover_categories.html?sites&island=Todas"
+    }
+  ],
+  "restaurants":[
+    {
+      "title": "Restaurantes"
+    },
+    {
+      "id": "1",
+      "img": "../assets/allende.jpg",
+      "title": "Allende Triana",
+      "url": "discover_information.html?restaurant",
+      "island": "Gran Canaria",
+      "exturl": "https://www.tripadvisor.es/Restaurant_Review-g187472-d3731318-Reviews-Allende_Triana-Las_Palmas_de_Gran_Canaria_Gran_Canaria_Canary_Islands.html",
+      "info": "El restaurante tiene una carta amplia con variedad de platos estupendos. La calida precio ideal y la ubicación del restaurante está una calle perpendicular a una zona comercial con encanto (Triana). No dejes de los langostinos crujientes con albahaca, el pan bao, la pastela, las carrileeras y de postre la cookie."
+    },
+
+    {
+      "id": "2",
+      "img": "../assets/churrasco.jpg",
+      "title": "El Churrasco Restaurante",
+      "url": "discover_information.html?restaurant",
+      "island": "Gran Canaria",
+      "exturl": "https://www.tripadvisor.es/Restaurant_Review-g187472-d2365869-Reviews-El_Churrasco_Las_Palmas-Las_Palmas_de_Gran_Canaria_Gran_Canaria_Canary_Islands.html",
+      "info": "Muy buena ubicación y un lugar agradable. La atención cordial. La comida justita. Si eres español y estas acostumbrado a un buen chuletón probablemente no cumpla las expectativas. Para el resto de la comida más de lo mismo. Un buen sitio para extranjeros."
+    },
+    {
+      "id": "3",
+      "img": "../assets/mulligans.jpg",
+      "title": "Mulligan's Gran Canaria",
+      "url": "discover_information.html?restaurant",
+      "island": "Gran Canaria",
+      "exturl":"https://www.tripadvisor.es/Restaurant_Review-g562819-d3844080-Reviews-Mulligan_s_Gran_Canaria-Playa_del_Ingles_Maspalomas_Gran_Canaria_Canary_Islands.html",
+      "info": "Es un sitio muy agradable para cenar una Hamburguesa,pizza,nachos y cosas asi,con muy buena calidad. Mucha variedad de cervezas y cócteles,la atención inmejorable y actuaciones en directo."
+    }
+  ],
+  "partys":[
+    {
+      "title": "Fiestas Populares"
+    },
+    {
+      "id": "1",
+      "img": "../assets/charco.jfif",
+      "title": "Fiesta del Charco",
+      "url": "discover_information.html?partys",
+      "island": "Gran Canaria",
+      "exturl": "https://www.grancanariaregional.com/es/fiesta-del-charco-aldea/",
+      "info": "La Fiesta Del Charco en la Aldea de San Nicolás se desarrolla el día después de la festividad de San Nicolás de Tolentino, los días 9 y 10 respectivamente. En la mañana del día 11 de Septiembre, los aún rezagados asistentes a la fiesta de San Nicolas, se preparan para la celebración de la fiesta del charco, basada en una tradición prehispánica."
+    },
+
+    {
+      "id": "2",
+      "img": "../assets/enanos.jfif",
+      "title": "La Danza de Enanos",
+      "url": "discover_information.html?partys",
+      "island": "La Palma",
+      "exturl":"https://www3.gobiernodecanarias.org/medusa/wiki/index.php?title=Enanos_de_La_Palma",
+      "info":"La danza de los Enanos de La Palma es uno de los principales actos de las fiestas de La Bajada de la Virgen de las Nieves, en Santa Cruz de La Palma, que se celebra cada 5 años. Se trata de una tradición que comenzó en 1905 como otra muestra más de agradecimiento a la Patrona de la isla. Esta danza la realizan 24 hombres con un mismo disfraz al son de una polca."
+    },
+    {
+      "id": "3",
+      "img": "../assets/carnavalsct.jfif",
+      "title": "El Carnaval de Santa Cruz de Tenerife",
+      "url": "discover_information.html?partys",
+      "island": "Tenerife",
+      "exturl": "https://carnavaldetenerife.com/",
+      "info": "El Carnaval de Santa Cruz de Tenerife ostenta, junto con el Carnaval de Cádiz y el Carnaval de Águilas (Murcia) la máxima consideración para fiestas que concede el ministerio con competencias en turismo en España. Es considerado el segundo carnaval más popular y conocido internacionalmente, después de los que se celebran en Río de Janeiro (Brasil)"
+    }
+  ],
+  "sites":[
+    {
+      "title": "Visitas Interesantes"
+    },
+    {
+      "id": "1",
+      "img": "../assets/cuevaverde.jfif",
+      "title": "La Cueva de los Verdes",
+      "url": "discover_information.html?sites",
+      "island": "Lanzarote",
+      "exturl": "https://www.tripadvisor.es/Attraction_Review-g187477-d190883-Reviews-Cueva_de_los_Verdes-Lanzarote_Canary_Islands.html",
+      "info": "La cueva de los Verdes es una estructura volcánica situada en el municipio de Haría, al norte de la isla de Lanzarote,. Forma parte del tubo volcánico originado por la erupción del volcán de La Corona."
+    },
+
+    {
+      "id": "2",
+      "img": "../assets/dunasmaspalomas.jfif",
+      "title": "Dunas de Maspalomas",
+      "url": "discover_information.html?sites",
+      "island": "Gran Canaria",
+      "exturl": "https://es.wikipedia.org/wiki/Dunas_de_Maspalomas",
+      "info": "Las Dunas de Maspalomas son un espacio natural situado en el municipio de San Bartolomé de Tirajana, al sur de Gran Canaria, Canarias, España. Está protegido con la categoría de reserva natural especial."
+    },
+    {
+      "id": "3",
+      "img": "../assets/reservalobos.jfif",
+      "title": "Isla de lobos",
+      "url": "discover_information.html?sites",
+      "island": "Fuerteventura",
+      "exturl": "https://www.fuerteventura.es/isla-lobos",
+      "info": "Antiguo oasis de pescadores y acogedor refugio de piratas, la Isla de Lobos es un pequeño islote que emerge entre Lanzarote y Fuerteventura para convertirse en la más pequeña y salvaje de las Islas Canarias."
+    }
+  ]
+}

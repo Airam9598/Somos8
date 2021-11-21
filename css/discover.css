@@ -4,7 +4,7 @@
     height: max-content;
     background: #ffffff80;
     border-radius: 10px;
-    box-shadow: #00000073 0px 2px 4px 0px;
+    box-shadow: #00000073 0 2px 4px 0;
     margin-top:20px;
 }
 
@@ -15,7 +15,6 @@
 
 
 #filter article{
-    padding: 10px;
     background: var(--gray);
     width: 165px;
     display: inline-flex;
@@ -23,7 +22,7 @@
     border: var(--yellow) 3px solid;margin: 10px;
     color: white;
     text-align: center;
-    box-shadow: #00000073 0px 2px 4px 0px;
+    box-shadow: #00000073 0 2px 4px 0;
     justify-content: center;
     align-items: center;
     padding: 7px;
@@ -74,7 +73,7 @@
     position: relative;
     display: inline-block;
     margin:20px;
-    box-shadow: #000000cc 0px 2px 4px 0px;
+    box-shadow: #000000cc 0 2px 4px 0;
 }
 
 .card img{
@@ -142,6 +141,7 @@
 .back:hover{
     background: var(--darkyellow);
     color: white;
+    cursor: pointer;
 }
 
 .back span{
@@ -295,7 +295,7 @@
     .category_info article a{
         position: unset;
     }
-    .categories article{
+    .categories article , #info article{
         width: 95%;
         height: max-content;
     }

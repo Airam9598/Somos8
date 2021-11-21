@@ -44,20 +44,21 @@
                                            minlength="5" maxlength="29" size="31">
                                     <label for="mail-register"><small>Correo electrónico*</small></label>
                                 </p>
+                                <p id="maillogin-error"></p>
                                 <p class="form-floating">
                                     <input type="password" class="form-control" name="psw" id="password-register"
                                            placeholder="Contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="password-register"><small>Contraseña*</small></label>
                                 </p>
+                                <p id="psw-error"></p>
                                 <p class="form-floating">
                                     <input type="password" class="form-control" name="psw2" id="password-confirm"
                                            placeholder="Confirmar contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="password-confirm"><small>Confirmar contraseña*</small></label>
                                 </p>
-                                <p id="error">La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 8 carácteres</p>
-                                <p id="error2">Las contraseñas no coinciden</p>
+                                <p id="psw2-error"></p>
                                 <div class="form-check mb-3">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                     <label class="form-check-label" for="invalidCheck">
