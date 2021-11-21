@@ -4,7 +4,6 @@ $(document).ready(function() {
 
     const mapPattern = new Map()
     mapPattern.set("place", "^[a-zA-Z.,À-ÿ\\s]{4,30}$")
-
     mapPattern.set("time", "^([0-1]?[0-9]|2[0-4]):([0-5][0-9])(:[0-5][0-9])?$")
     mapPattern.set("material", "^[a-zA-Z.,0-9À-ÿ\\s]{5,150}$")
     mapPattern.set("description", "^[a-zA-Z0-9.,À-ÿ\\s]{10,320}$")
