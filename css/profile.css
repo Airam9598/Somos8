@@ -11,14 +11,28 @@ form{
     box-shadow: #00000096 1px 2px 3px 1px;
 }
 
-#error{
-    max-width: 19rem;
+.form-control:focus {
+    box-shadow: none!important;
+}
+
+/*********** VALID *****************/
+form input[type="password"]:required:valid{
+    outline: none;
+}
+
+/******* ERROR **********/
+form input[type="password"]:focus:required:invalid{
+    outline: none;
+}
+
+#psw2-error, #psw-error{
     color: black;
-    font-weight: bold;
     display: none;
-    text-shadow: #ffffffc4 0px 0px 29px;
-    margin: auto;
-    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: #ffffffc4 0 0 29px;
+    max-width: 19rem;
+    margin:auto;
+    margin-bottom: 10px;
     font-size: small;
 }
 

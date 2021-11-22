@@ -34,20 +34,23 @@
                             <form class="rounded mt-4" id="logins" action="" method="post">
                                 <h2 class="mb-4">INICIA SESIÓN</h2>
                                 <p class="form-floating">
-                                    <input type="email" class="form-control" name="mail" id="email-login"
-                                           placeholder="Correo electrónico*" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$" minlength="3"
+                                    <input type="email" class="form-control" name="mail" id="mail"
+                                           placeholder="Correo electrónico*" required minlength="3"
                                            maxlength="29" size="33">
-                                    <label for="email-login"><small>Correo electrónico*</small></label>
+                                    <label for="mail"><small>Correo electrónico*</small></label>
                                 </p>
-                                <p id="maillogin-error"></p>
-
+                                <div id="mail-error" class="mt-1">
+                                    La dirección de correo no es válida. Ej: example@ulpgc.es
+                                </div>
                                 <p class="form-floating">
-                                    <input type="password" class="form-control" name="psw" id="password-login"
-                                           placeholder="Contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
+                                    <input type="password" class="form-control" name="psw" id="psw"
+                                           placeholder="Contraseña*" required
                                            minlength="6" maxlength="15" size="33">
-                                    <label for="password-login"><small>Contraseña*</small></label>
+                                    <label for="psw"><small>Contraseña*</small></label>
                                 </p>
-                                <p id="psw-error"></p>
+                                <div id="psw-error" class="mt-1">
+                                    La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres
+                                </div>
                                 <p>
                                     <div class="register-text"><a class="text-muted" href="register.html">Regístrate</a> <small>si aún no tienes cuenta.</small></div>
                                 </p>

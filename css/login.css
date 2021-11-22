@@ -10,24 +10,29 @@ form{
     box-shadow: 2px 2px 5px black;
 }
 
+.form-control:focus {
+    box-shadow: none!important;
+}
+
 /*********** VALID *****************/
 form input[type="email"]:required:valid, form input[type="password"]:required:valid{
-    border:2px solid green;
     outline: none;
 }
 
 /******* ERROR **********/
 form input[type="email"]:focus:required:invalid, form input[type="password"]:focus:required:invalid{
-    border:2px solid red;
     outline: none;
 }
 
-#maillogin-error, #psw-error{
-    font-size: small;
-    font-weight: bold;
+#mail-error, #psw-error{
     color: black;
     display: none;
-    text-shadow: #ffffffc4 0px 0px 29px;
+    font-weight: bold;
+    text-shadow: #ffffffc4 0 0 29px;
+    max-width: 19rem;
+    margin:auto;
+    margin-bottom: 10px;
+    font-size: small;
 }
 
 button.btn-primary{
