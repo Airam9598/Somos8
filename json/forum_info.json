@@ -1,0 +1,32 @@
+{
+  "excursion": [
+    {
+      "id": "1",
+      "title": "Excursión al Roque Nublo",
+      "place":"Lugar: Roque Nublo",
+      "image": "../assets/roquenublo.jpg",
+      "date": "Fecha: 25/11/2021",
+      "time": "Hora: 08:10",
+      "material": "Material Necesario: Agua y comida.",
+      "description": "Iremos desde los Llanos de la Pez hasta el Roque Nublo. Esta actividad es apta para todas las edades, por lo que no se requiere estar en forma.",
+      "answer": "¿Asistirá al evento?",
+      "answerYes": "Sí",
+      "answerNo": "No",
+      "button": "Guardar"
+    }
+  ],
+  "coments": [
+      {
+        "profileImg": "../assets/profile.png",
+        "username": "user01",
+        "comment": "Yo no puedo ir ese día, qué pena :(",
+        "answer": "Responder"
+      },
+      {
+        "profileImg": "../assets/profile.png",
+        "username": "user02",
+        "comment": "El roque nublo es muy bonito",
+        "answer": "Responder"
+      }
+  ]
+}

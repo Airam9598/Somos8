@@ -20,7 +20,6 @@ function discover(){
         if($('#categories').children("article").length != emp["main"].length)
         {
             $('#categories').children("article").remove();
-            $('#categories').children("article").remove();
             for (var i = 0; i < emp["main"].length; i++) {
                 $('#categories').append('<article class="card">\n' +
                     '<div class="card-body">\n' +
@@ -84,8 +83,9 @@ function discover_info(){
     }
 
     $.getJSON('../json/discover.json', function (emp) {
+        console.log($('#discover_info').children("img").length)
         if($('#discover_info').children("img").length ==0) {
-            $('#info').append('<p>' + emp[data][0].title + '</p>');
+            $('#info').append('<p >' + emp[data][0].title + '</p>');
             for (var i = 1; i < emp[data].length; i++) {
                 if (id == emp[data][i].id) {
                     $('#discover_info').append('<p class="title">' + emp[data][i].title + '</p>');

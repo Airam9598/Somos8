@@ -9,7 +9,6 @@ $(document).ready(function () {
 /**First load for general section**/
 function firstLoad(){
     loaddata(tabNam)
-    console.log("firstLoad")
 }
 
 function checkData(){
@@ -25,6 +24,7 @@ function checkData(){
         loaddata(tabNam)
     }
 }
+
 function openTab(evt, tabName) {
     if (tabName === 'my_excursions'){
         tabNam = tabName

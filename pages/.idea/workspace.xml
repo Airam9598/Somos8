@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../js/forum_json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../json/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../json/forum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/forum_info_json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json/forum_info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/discover_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/discover_json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/forum_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/forum_json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suggestion.html" beforeDir="false" afterPath="$PROJECT_DIR$/suggestion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -109,7 +106,8 @@
       <workItem from="1637431482486" duration="842000" />
       <workItem from="1637433577836" duration="198000" />
       <workItem from="1637489423625" duration="26130000" />
-      <workItem from="1637570041926" duration="24856000" />
+      <workItem from="1637570041926" duration="25424000" />
+      <workItem from="1637603832830" duration="13646000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637502198148</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Carga dinámica de las tablas del foro.">
+      <created>1637596088071</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637596088072</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +253,7 @@
     <MESSAGE value="Validaciones varias." />
     <MESSAGE value="Home" />
     <MESSAGE value="Modificaciones en las validaciones de suggestion y forum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones en las validaciones de suggestion y forum" />
+    <MESSAGE value="Carga dinámica de las tablas del foro." />
+    <option name="LAST_COMMIT_MESSAGE" value="Carga dinámica de las tablas del foro." />
   </component>
 </project>
