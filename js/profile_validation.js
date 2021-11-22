@@ -1,51 +1,36 @@
 $(document).ready(function() {
     const form = document.getElementById('profiles');
     const inputs = document.querySelectorAll('#profiles input');
-    const pattern = {
-        psw: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}/
-    }
+    const mapPattern = new Map()
+    mapPattern.set("psw2", '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}')
+    mapPattern.set("psw", '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}')
 
     const validateForm = (e) => {
-        switch (e.target.name) {
-            case "psw":
-                validateField(pattern.psw, e.target, 'current-password');
-                break;
-            case "psw2":
-                validateField(pattern.psw, e.target, 'new-password');
-                break;
-        }
+        let prop = e.target.name
+        validateField(mapPattern.get(prop), e.target, e.target.id)
     }
 
     const validateField = (pattern, input, field) => {
-        if (pattern.test(input.value)) {
-            document.getElementById(field).classList.remove('is-invalid');
-            document.getElementById(field).classList.add('is-valid');
-            if (field == "current-password" || field == "new-password") {
-                document.getElementById('error').style.display = "none";
-                if (document.getElementById('current-password').value != "" && document.getElementById('new-password').value != "") {
-                    if (document.getElementById('current-password').value == document.getElementById('new-password').value) {
-                        document.getElementById(field).classList.remove('is-valid');
-                        document.getElementById(field).classList.add('is-invalid');
-                        document.getElementById(field).classList.add('text-danger');
-                        document.getElementById(field).classList.remove('text-success');
-                        document.getElementById('error').innerHTML = "Las contraseñas no pueden coincidir";
-                        document.getElementById('error').style.display = "block";
-                    } else{
-                        document.getElementById('error').innerHTML = "";
-                    }
-                } else {
-                    document.getElementById('error').innerHTML = "";
+        if(new RegExp(pattern).test(input.value)) {
+            document.getElementById(field).classList.remove("is-invalid","text-danger", "border" ,"border-danger");
+            document.getElementById(field).classList.add("is-valid", "text-success", "border", "border-success");
+            document.getElementById(`${field}-error`).style.display = 'none';
+            if (document.getElementById('psw').value != "" && document.getElementById('psw2').value != "") {
+                if (document.getElementById('psw').value == document.getElementById('psw2').value) {
+                    document.getElementById(field).classList.remove('is-valid', 'text-success', "border", "border-success");
+                    document.getElementById(field).classList.add('is-invalid', 'text-danger', "border", "border-danger");
+                    document.getElementById(`${field}-error`).innerHTML = "La contraseñas no pueden coincidir";
+                    document.getElementById(`${field}-error`).style.display = 'block';
+                }else{
+                    document.getElementById(`psw-error`).style.display = "none";
+                    document.getElementById(`psw2-error`).style.display = "none";
                 }
             }
         } else {
-            document.getElementById(field).classList.remove('is-valid');
-            document.getElementById(field).classList.add('is-invalid');
-            document.getElementById(field).classList.add('text-danger');
-            document.getElementById(field).classList.remove('text-success');
-            if (field == "current-password" || field == "new-password") {
-                document.getElementById('error').innerHTML = "La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres";
-                document.getElementById('error').style.display = "block";
-            }
+            document.getElementById(field).classList.remove('is-valid', 'text-success', "border", "border-success");
+            document.getElementById(field).classList.add('is-invalid', 'text-danger', "border", "border-danger");
+            document.getElementById(`${field}-error`).innerHTML="La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres";
+            document.getElementById(`${field}-error`).style.display = 'block';
         }
     }
 
@@ -65,4 +50,15 @@ $(document).ready(function() {
     }
 
     document.getElementById('img-change').addEventListener("change", updateimage);
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        Swal.fire({
+            icon: 'success',
+            title: '¡Su contraseña se ha cambiado!',
+            showConfirmButton: false,
+            timer: 1500
+        })
+
+    });
 });
