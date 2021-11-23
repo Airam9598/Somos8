@@ -1,8 +1,6 @@
 let tabNam = 'general'
 $(document).ready(function () {
-    window.onload = function() {
-        setInterval(checkData, 3000);
-    }
+    setInterval(checkData, 3000);
     firstLoad()
 });
 

@@ -1,8 +1,6 @@
 
 $(document).ready(function () {
-    window.onload = function() {
-        setInterval(loaddata, 3000);
-    }
+    setInterval(loaddata, 3000);
     function loaddata() {
         if ($("#categories").length > 0) {
             discover();

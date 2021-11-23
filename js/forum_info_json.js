@@ -1,7 +1,5 @@
 $(document).ready(function () {
-    window.onload = function() {
-        setInterval(loaddata, 500);
-    }
+    setInterval(loaddata, 500);
     loaddata()
 });
 
