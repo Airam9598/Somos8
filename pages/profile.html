@@ -58,7 +58,7 @@
                                     <p class="input-group mb-3">
                                         <label class="input-group-text" for="psw">Contraseña actual</label>
                                         <input class="form-control" type="password" name="psw" id="psw" placeholder="nueva contraseña" minlength="6"
-                                               maxlength="15" size="31" required>
+                                               maxlength="15" size="31" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}">
                                     </p>
                                     <div id="psw-error" class="mt-1">
                                         La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres
@@ -66,7 +66,7 @@
                                     <p class="input-group mb-3">
                                         <label class="input-group-text" for="psw2">Nueva contraseña</label>
                                         <input class="form-control" type="password" name="psw2" id="psw2" placeholder="nueva contraseña" minlength="6"
-                                               maxlength="15" size="31" required>
+                                               maxlength="15" size="31" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}">
                                     </p>
                                     <div id="psw2-error" class="mt-1">
                                         La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres

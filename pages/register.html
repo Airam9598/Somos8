@@ -54,7 +54,7 @@
                                 </div>
                                 <p class="form-floating">
                                     <input type="password" class="form-control" name="psw" id="psw"
-                                           placeholder="Contraseña*" required
+                                           placeholder="Contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="psw"><small>Contraseña*</small></label>
                                 </p>
@@ -63,7 +63,7 @@
                                 </div>
                                 <p class="form-floating">
                                     <input type="password" class="form-control" name="psw2" id="psw2"
-                                           placeholder="Confirmar contraseña*" required
+                                           placeholder="Confirmar contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="psw2"><small>Confirmar contraseña*</small></label>
                                 </p>
