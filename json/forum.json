@@ -2,7 +2,7 @@
   "entry-general":[
     {
       "id":"1",
-      "name": "Excursión al Parque Nacional de Timanfaya",
+      "name": "Excursión al Roque Nublo",
       "description": "Esta experiencia es de intensidad...",
       "organizer": "user01",
       "date": " 22 Nov 2021,",
@@ -10,11 +10,12 @@
       "time": "16:11",
       "lastComment": "user03",
       "dateComment": " 22 Nov 2021,",
+      "url": "forum_info.html?Excursion",
       "timeComment": "18:11"
     },
     {
       "id": "2",
-      "name": "Excursión a la Caldera de Bandamas",
+      "name": "Excursión a los Jameos del Agua",
       "description": "Esta experiencia es de intensidad...",
       "organizer": "user02",
       "date": " 23 Nov 2021,",
@@ -22,6 +23,7 @@
       "time": "07:11",
       "lastComment": "user02",
       "dateComment": " 23 Nov 2021,",
+      "url": "forum_info.html?Excursion",
       "timeComment": "16:11"
     },
     {
@@ -34,30 +36,33 @@
       "time": "20:11",
       "lastComment": "user01",
       "dateComment": " 23 Nov 2021,",
+      "url": "forum_info.html?Excursion",
       "timeComment": "21:28"
     }
   ],
   "entry-myExcursions":[
     {
-      "id":"1",
-      "name": "Excursión al Parque Nacional de Timanfaya",
+      "id":"2",
+      "name": "Excursión a los Jameos del Agua",
       "description": "Esta experiencia es de intensidad...",
       "comment": "20",
       "assistants": "2",
       "organizer": "user01",
       "date": " 22 Nov 2021,",
+      "url": "forum_info.html?Excursion",
       "time": "16:11"
     }
     ],
     "entry-myPosts":[
       {
-        "id": "1",
-        "name": "Excursión a la Caldera de Bandamas",
+        "id": "3",
+        "name": "Excursión al Teide",
         "description": "Esta experiencia es de intensidad...",
         "assistants": "2",
         "comment": "2",
         "lastComment": "user02",
         "dateComment": " 23 Nov 2021,",
+        "url": "forum_info.html?Excursion",
         "timeComment": "16:11"
       }
     ]

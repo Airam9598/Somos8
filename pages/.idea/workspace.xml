@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../js/forum_info_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/forum_info_json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/forum_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/forum_json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../json/forum.json" beforeDir="false" afterPath="$PROJECT_DIR$/../json/forum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json/forum_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../json/forum_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,7 @@
       <workItem from="1637603832830" duration="13805000" />
       <workItem from="1637655711776" duration="4649000" />
       <workItem from="1637663903085" duration="3432000" />
-      <workItem from="1637675108274" duration="7271000" />
+      <workItem from="1637675108274" duration="7822000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -258,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637667328180</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Añadí la URL a la excursión del foro">
+      <created>1637682548614</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637682548614</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +283,7 @@
     <MESSAGE value="Carga dinámica de forum_info" />
     <MESSAGE value="Pequeñas modificaciones" />
     <MESSAGE value="Comentarios de forum_info adaptados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios de forum_info adaptados" />
+    <MESSAGE value="Añadí la URL a la excursión del foro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadí la URL a la excursión del foro" />
   </component>
 </project>
