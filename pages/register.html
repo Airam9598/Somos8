@@ -40,36 +40,28 @@
                                            minlength="2" maxlength="29" size="31">
                                     <label for="name"><small>Nombre de usuario*</small></label>
                                 </p>
-                                <div id="name-error" class="mt-1">
-                                    El nombre de usuario tienes que tener al menos 2 carácteres y no puede contener espacios
-                                </div>
+                                <p id="name-error">El nombre de usuario tienes que tener al menos 2 carácteres y no puede contener espacios</p>
                                 <p class="form-floating">
                                     <input type="email" class="form-control" name="mail" id="mail"
                                            placeholder="Correo electrónico*" required
                                            minlength="5" maxlength="29" size="31">
                                     <label for="mail"><small>Correo electrónico*</small></label>
                                 </p>
-                                <div id="mail-error" class="mt-1">
-                                    La dirección de correo no es válida. Ej: example@ulpgc.es
-                                </div>
+                                <p id="mail-error"> La dirección de correo no es válida. Ej: example@ulpgc.es</p>
                                 <p class="form-floating">
                                     <input type="password" class="form-control" name="psw" id="psw"
                                            placeholder="Contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="psw"><small>Contraseña*</small></label>
                                 </p>
-                                <div id="psw-error" class="mt-1">
-                                    La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres
-                                </div>
+                                <p id="psw-error"> La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres</p>
                                 <p class="form-floating">
                                     <input type="password" class="form-control" name="psw2" id="psw2"
                                            placeholder="Confirmar contraseña*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}"
                                            minlength="6" maxlength="15" size="31">
                                     <label for="psw2"><small>Confirmar contraseña*</small></label>
                                 </p>
-                                <div id="psw2-error" class="mt-1">
-                                    La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres
-                                </div>
+                                <p id="psw2-error"> La contraseña debe contener al menos un número, una letra mayúscula y minúscula y más de 6 carácteres</p>
                                 <div class="form-check mb-3">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                     <label class="form-check-label" for="invalidCheck">

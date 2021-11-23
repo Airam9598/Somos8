@@ -7,7 +7,9 @@ $(document).ready(function() {
 
     const validateForm = (e) => {
         let prop = e.target.name
-        validateField(mapPattern.get(prop), e.target, e.target.id)
+        if(document.getElementById(e.target.id).value.length >0) {
+            validateField(mapPattern.get(prop), e.target, e.target.id)
+        }
     }
 
     const validateField = (pattern, input, field) => {

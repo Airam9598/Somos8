@@ -7,8 +7,10 @@ $(document).ready(function() {
     mapPattern.set("psw", '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}')
 
     const validateForm = (e) => {
-        let prop = e.target.name
-        validateField(mapPattern.get(prop), e.target, e.target.id)
+        var prop = e.target.name
+        if(document.getElementById(e.target.id).value.length >0) {
+            validateField(mapPattern.get(prop), e.target, e.target.id)
+        }
     }
 
     const validateField = (pattern, input, field) => {
