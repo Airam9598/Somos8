@@ -77,7 +77,7 @@ function general(tabName){
         for (var i = 0; i < emp["entry-general"].length; i++) {
             $('#general-table').append('   <tr>'+
                 '       <td>'+
-                '           <h3 class="h5 mb-0"><a href="forum_info.html">' + emp['entry-general'][i].name + '</a></h3>' +
+                '           <h3 class="h5 mb-0"><a href="' + emp['entry-general'][i].url + '$id=' + emp['entry-general'][i].id + '">' + emp['entry-general'][i].name + '</a></h3>' +
                 '           <p class="mb-0">' + emp['entry-general'][i].description + '</p>' +
                 '       </td>' +
                 '       <td>' + emp['entry-general'][i].comment  +'</td>' +
@@ -105,7 +105,7 @@ function myExcursions(tabName){
         for (var i = 0; i < emp["entry-myExcursions"].length; i++) {
             $('#myexcursions-table').append('   <tr>'+
                 '       <td>'+
-                '           <h3 class="h5 mb-0"><a href="forum_info.html">' + emp['entry-myExcursions'][i].name + '</a></h3>' +
+                '           <h3 class="h5 mb-0"><a href="' + emp['entry-myExcursions'][i].url + '$id=' + emp['entry-myExcursions'][i].id + '">' + emp['entry-myExcursions'][i].name + '</a></h3>' +
                 '           <p class="mb-0">' + emp['entry-myExcursions'][i].description + '</p>' +
                 '       </td>' +
                 '       <td>' + emp['entry-myExcursions'][i].comment  +'</td>' +
@@ -128,7 +128,7 @@ function myPost(tabName){
         for (var i = 0; i < emp["entry-myPosts"].length; i++) {
             $('#myposts-table').append('   <tr>' +
                 '       <td>'+
-                '           <h3 class="h5 mb-0"><a href="forum_info.html">' + emp['entry-myPosts'][i].name + '</a></h3>' +
+                '           <h3 class="h5 mb-0"><a href="' + emp['entry-myPosts'][i].url + '$id=' + emp['entry-myPosts'][i].id + '">' + emp['entry-myPosts'][i].name + '</a></h3>' +
                 '           <p class="mb-0">' + emp['entry-myPosts'][i].description + '</p>' +
                 '       </td>' +
                 '       <td>' + emp['entry-myPosts'][i].comment  +'</td>' +

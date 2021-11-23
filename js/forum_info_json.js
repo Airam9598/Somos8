@@ -1,14 +1,16 @@
 $(document).ready(function () {
     window.onload = function() {
-        setInterval(loaddata, 100);
+        setInterval(loaddata, 500);
     }
+    loaddata()
 });
 
 
 function loaddata() {
     $.getJSON('../json/forum_info.json', function (emp) {
-        console.log(emp['excursion'][0].coments)
-        if ($('#excursion').children("img").length != emp["excursion"].length) {
+        console.log(emp["excursion"].length)
+        console.log($('#excursion').children("article").length )
+        if ($('#excursion').children("article").length < 1) {
             excursion();
         } else if ($('#coments').children("article").length != emp["coments"].length){
             coments();
@@ -17,26 +19,36 @@ function loaddata() {
 }
 
 function excursion(){
+    var data="Excursion";
+    var id="null";
+    if(window.location.href.toString().includes("id")){
+        id= window.location.href.toString().substr(window.location.href.toString().indexOf("id=")+3,window.location.href.toString().length);
+    }
     $.getJSON('../json/forum_info.json', function (emp) {
+        $('#myexcursions-table').children("article").remove();
         for (var i = 0; i < emp['excursion'].length; i++) {
-            $('#excursion').append('<p class="title">' + emp['excursion'][i].title +'</p>' +
-                '<img src="' + emp['excursion'][i].image + '">' +
-                '<div class="exc-info">' +
-                '   <p class="date mb-3">' + emp['excursion'][i].place + '</p>' +
-                '   <p class="date">' + emp['excursion'][i].date + '</p>' +
-                '   <p class="date">' + emp['excursion'][i].time + '</p>' +
-                '   <p class="date">' + emp['excursion'][i].material + '</p>' +
-                '   <p class="description">' + emp['excursion'][i].description + '</p>' +
-                '   <form class="assistant">' +
-                '       <div class="assistant_text">' + emp['excursion'][i].answer + '</div>' +
-                '       <input type="radio" name="my-input" id="yes">' +
-                '       <label for="yes">' + emp['excursion'][i].answerYes + '</label>' +
-                '       <input type="radio" name="my-input" id="no">' +
-                '       <label for="no">' + emp['excursion'][i].answerNo + '</label>' +
-                '       <a href="" class="save_button">' + emp['excursion'][i].button +'</a>' +
-                '   </form>' +
-                '</div>'
-            );
+            if (id == emp['excursion'][i].id){
+                $('#excursion').append('<article>' +
+                    '   <p class="title">' + emp['excursion'][i].title +'</p>' +
+                    '   <img src="' + emp['excursion'][i].image + '">' +
+                    '   <div class="exc-info">' +
+                    '       <p class="date mb-3">' + emp['excursion'][i].place + '</p>' +
+                    '       <p class="date">' + emp['excursion'][i].date + '</p>' +
+                    '       <p class="date">' + emp['excursion'][i].time + '</p>' +
+                    '       <p class="date">' + emp['excursion'][i].material + '</p>' +
+                    '       <p class="description">' + emp['excursion'][i].description + '</p>' +
+                    '       <form class="assistant">' +
+                    '           <div class="assistant_text">' + emp['excursion'][i].answer + '</div>' +
+                    '           <input type="radio" name="my-input" id="yes">' +
+                    '           <label for="yes">' + emp['excursion'][i].answerYes + '</label>' +
+                    '           <input type="radio" name="my-input" id="no">' +
+                    '           <label for="no">' + emp['excursion'][i].answerNo + '</label>' +
+                    '           <a href="" class="save_button">' + emp['excursion'][i].button +'</a>' +
+                    '       </form>' +
+                    '   </div>' +
+                    '</article>');
+                break;
+            }
         }
     });
 }
