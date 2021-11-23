@@ -16,8 +16,6 @@ function loaddata() {
     });
 }
 
-
-//Para acceder a los comentarios es --> emp['excursion']['coments'].length
 function excursion(){
     $.getJSON('../json/forum_info.json', function (emp) {
         for (var i = 0; i < emp['excursion'].length; i++) {
@@ -47,13 +45,15 @@ function excursion(){
 function coments() {
     $.getJSON('../json/forum_info.json', function (emp) {
         for (var i = 0; i < emp['coments'].length; i++) {
-            $('#coments').append('<article>' +
-                '   <img src="' + emp['coments'][i].profileImg + '">' +
-                '   <div class="comment">' +
-                '       <p class="username">' + emp['coments'][i].username + '</p>'+
-                '       <p>' + emp['coments'][i].comment + '</p>'+
+            $('#coments').append('<article class="mb-4">' +
+                '   <div class="row m-1">' +
+                '       <img class="md-2" id="imageForum"" src="' + emp['coments'][i].profileImg + '">' +
+                '       <div class="col-lg-10 col-md-12">' +
+                '           <p class="username col-12 mt-1">' + emp['coments'][i].username + '</p>'+
+                '           <p class="col-12">' + emp['coments'][i].comment + '</p>'+
+                '       <p class="answer col-12 mt-3"><a href="" data-toggle="modal" data-target="#addcoment-forum">' + emp['coments'][i].answer + '</a></p>' +
+                '       </div>' +
                 '   </div>'+
-                '   <p class="answer"><a href="" data-toggle="modal" data-target="#addcoment-forum">' + emp['coments'][i].answer + '</a></p>' +
                 '</article>'
             );
         }

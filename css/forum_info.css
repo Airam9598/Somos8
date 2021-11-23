@@ -186,6 +186,11 @@
     border: none;
 }
 
+#imageForum{
+    width: 7em;
+    height: 6em;
+}
+
 
 .a:hover{
     cursor: pointer;
@@ -199,7 +204,9 @@
     margin-left: 10px;
 }
 
-.coments article .comment{
+
+article.comment{
+    background-color: var(--yellow);
     width: max-content;
     position: absolute;
     left: 6em;
@@ -244,7 +251,9 @@
     .coments a{
         font-size: 1em;
     }
-
+    img.md-2{
+        display: none;
+    }
 }
 
 .modal-backdrop{
@@ -299,5 +308,8 @@
         font-size: 1em;
     }
 
+    img.md-2{
+        display: none;
+    }
 
 }

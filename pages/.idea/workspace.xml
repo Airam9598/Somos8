@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../css/forum_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/forum_info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/forum_info_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/forum_info_json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,8 @@
       <workItem from="1637489423625" duration="26130000" />
       <workItem from="1637570041926" duration="25424000" />
       <workItem from="1637603832830" duration="13805000" />
-      <workItem from="1637655711776" duration="4178000" />
+      <workItem from="1637655711776" duration="4649000" />
+      <workItem from="1637663903085" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637617682963</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Pequeñas modificaciones">
+      <created>1637661189198</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637661189198</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +268,7 @@
     <MESSAGE value="Modificaciones en las validaciones de suggestion y forum" />
     <MESSAGE value="Carga dinámica de las tablas del foro." />
     <MESSAGE value="Carga dinámica de forum_info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carga dinámica de forum_info" />
+    <MESSAGE value="Pequeñas modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pequeñas modificaciones" />
   </component>
 </project>
