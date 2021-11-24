@@ -7,6 +7,7 @@ $(function() {
 function check() {
     if ($("#icono-menu").css("display") == "inline") {
         $("#menu").removeAttr("style");
+        $(".cont-menu ul").removeAttr("style");
     }
 }
 
@@ -15,8 +16,10 @@ function openmenu() {
     if ($("#menu").css("height") != "0px") {
         $("#menu").css("height","0");
         $("#menu").css("width","0");
+        $(".cont-menu ul").css("display","none");
     }else {
         $("#menu").css("height","100%");
         $("#menu").css("width","100%");
+        $(".cont-menu ul").css("display","block");
     }
 }

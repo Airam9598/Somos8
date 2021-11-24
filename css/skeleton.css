@@ -252,9 +252,27 @@ footer section ul{
 }
 
 
-@media screen and (min-width: 0em) and (max-width: 70em) {
+@media screen and (min-width: 0em) and (max-width: 60em) {
+    .cont-menu{
+        overflow-y: auto;
+    }
     .cont-menu ul {
         display: none;
+        padding: 4rem 0 20px 0;
+    }
+    .cont-menu ul img {
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
+    .cont-menu ul li{
+        margin-bottom: 1rem;
+    }
+    .boton1{
+        font-size: 1em;
+    }
+    .boton1 a{
+        padding: 1.4rem;
+        text-align: center;
     }
     .cont-menu {
         height: 0;
