@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="Rails listo para usar">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +111,7 @@
       <workItem from="1638354633651" duration="1961000" />
       <workItem from="1638359247823" duration="814000" />
       <workItem from="1638360087467" duration="1154000" />
+      <workItem from="1638384546589" duration="3807000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637686260547</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Rails listo para usar">
+      <created>1638384606645</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638384606645</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +304,7 @@
     <MESSAGE value="Pequeñas modificaciones" />
     <MESSAGE value="Comentarios de forum_info adaptados" />
     <MESSAGE value="Añadí la URL a la excursión del foro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadí la URL a la excursión del foro" />
+    <MESSAGE value="Rails listo para usar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rails listo para usar" />
   </component>
 </project>
