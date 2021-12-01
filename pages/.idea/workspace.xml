@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../json/forum.json" beforeDir="false" afterPath="$PROJECT_DIR$/../json/forum.json" afterDir="false" />
+    <list default="true" id="37dfbd4c-cbe7-4207-afc8-e7e9cfb75e41" name="Changes" comment="Rails listo para usar">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruby" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -106,6 +107,11 @@
       <workItem from="1637655711776" duration="4649000" />
       <workItem from="1637663903085" duration="3432000" />
       <workItem from="1637675108274" duration="7822000" />
+      <workItem from="1637686123040" duration="265000" />
+      <workItem from="1637742295343" duration="1110000" />
+      <workItem from="1638354633651" duration="1961000" />
+      <workItem from="1638359247823" duration="814000" />
+      <workItem from="1638360087467" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="añadi las sugerencias (falta mejorar)">
       <created>1634484051134</created>
@@ -261,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637682548614</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Añadí la URL a la excursión del foro">
+      <created>1637686260546</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637686260547</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
